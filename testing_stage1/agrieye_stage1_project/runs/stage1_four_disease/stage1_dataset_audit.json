@@ -1,0 +1,85 @@
+{
+  "input_yaml": "C:\\Users\\Estre\\Downloads\\Thesis-reproduction-main\\Thesis-reproduction-main\\testing_stage1\\agrieye_stage1_project\\datasets\\stage1_disease_clean\\data.yaml",
+  "names": [
+    "BLB",
+    "BLS",
+    "LEAF BLAST",
+    "NBS"
+  ],
+  "splits": {
+    "train": {
+      "image_dir": "C:\\Users\\Estre\\Downloads\\Thesis-reproduction-main\\Thesis-reproduction-main\\testing_stage1\\agrieye_stage1_project\\datasets\\stage1_disease_clean\\train\\images",
+      "label_dir": "C:\\Users\\Estre\\Downloads\\Thesis-reproduction-main\\Thesis-reproduction-main\\testing_stage1\\agrieye_stage1_project\\datasets\\stage1_disease_clean\\train\\labels",
+      "images": 6144,
+      "empty_labels": 2772,
+      "nonempty_labels": 3372,
+      "missing_labels": 0,
+      "invalid_rows": 0,
+      "zero_area_polygons": 0,
+      "orphan_labels": 0,
+      "images_with_class": {
+        "BLB": 682,
+        "BLS": 1000,
+        "LEAF BLAST": 638,
+        "NBS": 1052
+      },
+      "instances": {
+        "BLB": 808,
+        "BLS": 3012,
+        "LEAF BLAST": 1068,
+        "NBS": 3410
+      }
+    },
+    "val": {
+      "image_dir": "C:\\Users\\Estre\\Downloads\\Thesis-reproduction-main\\Thesis-reproduction-main\\testing_stage1\\agrieye_stage1_project\\datasets\\stage1_disease_clean\\valid\\images",
+      "label_dir": "C:\\Users\\Estre\\Downloads\\Thesis-reproduction-main\\Thesis-reproduction-main\\testing_stage1\\agrieye_stage1_project\\datasets\\stage1_disease_clean\\valid\\labels",
+      "images": 747,
+      "empty_labels": 258,
+      "nonempty_labels": 489,
+      "missing_labels": 0,
+      "invalid_rows": 0,
+      "zero_area_polygons": 0,
+      "orphan_labels": 0,
+      "images_with_class": {
+        "BLB": 161,
+        "BLS": 126,
+        "LEAF BLAST": 88,
+        "NBS": 114
+      },
+      "instances": {
+        "BLB": 213,
+        "BLS": 303,
+        "LEAF BLAST": 157,
+        "NBS": 410
+      }
+    },
+    "test": {
+      "image_dir": "C:\\Users\\Estre\\Downloads\\Thesis-reproduction-main\\Thesis-reproduction-main\\testing_stage1\\agrieye_stage1_project\\datasets\\stage1_disease_clean\\test\\images",
+      "label_dir": "C:\\Users\\Estre\\Downloads\\Thesis-reproduction-main\\Thesis-reproduction-main\\testing_stage1\\agrieye_stage1_project\\datasets\\stage1_disease_clean\\test\\labels",
+      "images": 749,
+      "empty_labels": 267,
+      "nonempty_labels": 482,
+      "missing_labels": 0,
+      "invalid_rows": 0,
+      "zero_area_polygons": 0,
+      "orphan_labels": 0,
+      "images_with_class": {
+        "BLB": 151,
+        "BLS": 140,
+        "LEAF BLAST": 101,
+        "NBS": 90
+      },
+      "instances": {
+        "BLB": 181,
+        "BLS": 387,
+        "LEAF BLAST": 222,
+        "NBS": 282
+      }
+    }
+  },
+  "notices": [],
+  "errors": [],
+  "duplicate_check": "exact image bytes only; source-family grouping is a separate check",
+  "total_images": 7640,
+  "total_empty_labels": 3297
+}
