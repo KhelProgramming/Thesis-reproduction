@@ -1,0 +1,196 @@
+{
+  "box": {
+    "precision": 0.6567222132908027,
+    "recall": 0.4757812072577603,
+    "f1_macro": 0.5369129751968966,
+    "f1_from_mean_precision_recall": 0.5517971633518577,
+    "map50": 0.5307075186541671,
+    "map50_95": 0.3068227558013934,
+    "evaluated_class_ids": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "per_class": [
+      {
+        "class_id": 0,
+        "class_name": "BLB",
+        "evaluated": true,
+        "precision": 0.6682964276855807,
+        "recall": 0.6842105263157895,
+        "f1": 0.6761598514062056,
+        "ap50": 0.6984734877524447,
+        "ap50_95": 0.48091692742696796
+      },
+      {
+        "class_id": 1,
+        "class_name": "BLS",
+        "evaluated": true,
+        "precision": 0.7111110759687171,
+        "recall": 0.311513270013014,
+        "f1": 0.4332393170335205,
+        "ap50": 0.4192373602721691,
+        "ap50_95": 0.20676561977242242
+      },
+      {
+        "class_id": 2,
+        "class_name": "LEAF BLAST",
+        "evaluated": true,
+        "precision": 0.5309843739931575,
+        "recall": 0.4857142857142857,
+        "f1": 0.5073414693272965,
+        "ap50": 0.49792980988693475,
+        "ap50_95": 0.2878709632478535
+      },
+      {
+        "class_id": 3,
+        "class_name": "NBS",
+        "evaluated": true,
+        "precision": 0.7164969755157556,
+        "recall": 0.42168674698795183,
+        "f1": 0.5309112630205639,
+        "ap50": 0.5071894167051199,
+        "ap50_95": 0.25173751275832956
+      }
+    ]
+  },
+  "mask": {
+    "precision": 0.5841886599987902,
+    "recall": 0.4880343488171234,
+    "f1_macro": 0.5197368219800438,
+    "f1_from_mean_precision_recall": 0.5318000638387831,
+    "map50": 0.5156440656565406,
+    "map50_95": 0.277458732728731,
+    "evaluated_class_ids": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "per_class": [
+      {
+        "class_id": 0,
+        "class_name": "BLB",
+        "evaluated": true,
+        "precision": 0.6348745393802209,
+        "recall": 0.7149122807017544,
+        "f1": 0.6725204279001992,
+        "ap50": 0.7084055764764952,
+        "ap50_95": 0.4715683521792166
+      },
+      {
+        "class_id": 1,
+        "class_name": "BLS",
+        "evaluated": true,
+        "precision": 0.6223841252255258,
+        "recall": 0.3349875930521092,
+        "f1": 0.43554860893160335,
+        "ap50": 0.42420737230021366,
+        "ap50_95": 0.1965152556809901
+      },
+      {
+        "class_id": 2,
+        "class_name": "LEAF BLAST",
+        "evaluated": true,
+        "precision": 0.4952879873150928,
+        "recall": 0.5142857142857142,
+        "f1": 0.5046081052420168,
+        "ap50": 0.5063983238472316,
+        "ap50_95": 0.2643928347806713
+      },
+      {
+        "class_id": 3,
+        "class_name": "NBS",
+        "evaluated": true,
+        "precision": 0.5842079880743215,
+        "recall": 0.38795180722891565,
+        "f1": 0.4662701458463556,
+        "ap50": 0.4235649900022224,
+        "ap50_95": 0.1773584882740461
+      }
+    ]
+  },
+  "ultralytics_results": {
+    "metrics/precision(B)": 0.6567222132908027,
+    "metrics/recall(B)": 0.4757812072577603,
+    "metrics/mAP50(B)": 0.5307075186541671,
+    "metrics/mAP50-95(B)": 0.3068227558013934,
+    "metrics/precision(M)": 0.5841886599987902,
+    "metrics/recall(M)": 0.4880343488171234,
+    "metrics/mAP50(M)": 0.5156440656565406,
+    "metrics/mAP50-95(M)": 0.277458732728731,
+    "fitness": 0.5842814885301244
+  },
+  "speed_ms_per_image": {
+    "preprocess": 0.6067364760567332,
+    "inference": 8.85584910242579,
+    "loss": 0.0019197579817084762,
+    "postprocess": 1.2136801622333186
+  },
+  "definitions": {
+    "f1_macro": "Mean of per-class Ultralytics F1 values over evaluated classes.",
+    "f1_from_mean_precision_recall": "Harmonic mean of reported mean P and mean R; not generally equal to macro-F1.",
+    "precision_recall": "Ultralytics validation operating point, not Android app confidence thresholds.",
+    "iou": "No standalone IoU reproduction: the paper's aggregation/matching implementation is not supplied.",
+    "missing_class": "null metrics mean not present in the compact AP class index; not filled with a fabricated score."
+  },
+  "at_utc": "20261006T172610664558Z",
+  "run_id": "20261006T134612953896Z_baseline_disease_paper_50e_s0",
+  "split": "val",
+  "dataset_fingerprint": "52cbf05b4f3fb2bbab8108dc8ec65c95d2ce5471ee11eceaf19e7806e629a824",
+  "checkpoint_sha256": "a302639798a354abfcd0064af54e19730a6a9e50af93ec14976011d3bf33ea2b",
+  "run_kind": "baseline",
+  "evaluation_wall_seconds": 15.59738400399874,
+  "evaluation_arguments": {
+    "imgsz": 640,
+    "batch": 4,
+    "workers": 2,
+    "conf": 0.001,
+    "iou": 0.7,
+    "max_det": 300,
+    "half": false,
+    "rect": true,
+    "augment": false,
+    "plots": true,
+    "verbose": false,
+    "save_json": false,
+    "data": "/home/michaelreybelga/Fourth-Year/Thesis/agrieye_reproduction/data/prepared/agrieye_current/data.yaml",
+    "split": "val",
+    "device": 0,
+    "project": "/home/michaelreybelga/Fourth-Year/Thesis/agrieye_reproduction/runs/20261006T134612953896Z_baseline_disease_paper_50e_s0/evaluations",
+    "name": "val_20261006T172610664532Z",
+    "exist_ok": false
+  },
+  "environment": {
+    "python": "3.14.7 (main, Aug 10 2026, 00:00:00) [GCC 15.3.1 20260722 (Red Hat 15.3.1-1)]",
+    "executable": "/home/michaelreybelga/Fourth-Year/Thesis/agrieye_reproduction/.venv/bin/python",
+    "platform": "Linux-7.1.10-100.fc43.x86_64-x86_64-with-glibc2.42",
+    "packages": {
+      "ultralytics": "8.4.41",
+      "torch": "2.12.1",
+      "torchvision": "0.27.1",
+      "numpy": "2.4.4",
+      "Pillow": "11.3.0",
+      "PyYAML": "6.0.2",
+      "opencv-python": "4.13.0.92",
+      "albumentations": null
+    },
+    "cuda_available": true,
+    "cuda_build": "13.0",
+    "cudnn_version": 92000,
+    "gpus": [
+      {
+        "name": "NVIDIA GeForce GTX 1650",
+        "memory_bytes": 3895132160
+      }
+    ]
+  },
+  "class_names": [
+    "BLB",
+    "BLS",
+    "LEAF BLAST",
+    "NBS"
+  ],
+  "reproduction_confirmed": false
+}

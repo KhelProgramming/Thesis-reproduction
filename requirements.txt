@@ -1,0 +1,5 @@
+# Export metadata identifies this version; the authors' training version is unknown.
+# Keep the existing working PyTorch/CUDA installation. Every run saves pip freeze.
+ultralytics==8.4.41
+PyYAML>=6.0
+Pillow>=9.2

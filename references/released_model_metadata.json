@@ -1,0 +1,153 @@
+{
+  "audit_date": "2026-10-06",
+  "repository": "https://github.com/Onins123/AgriEye",
+  "repository_commit": "75dd443153249760857938e38320b6043cb4d3f2",
+  "method": "Downloaded model files; parsed FlatBuffer tensor metadata and embedded metadata.json. Did not execute inference or training.",
+  "export_metadata_caveat": "Export version, input dimensions, and batch size do not establish training version, dimensions, or batch size.",
+  "models": {
+    "best.tflite": {
+      "file": "best.tflite",
+      "sha256": "f69f3efe8c191e9767e674934a3f812f0cf82078fbf538c5a8d1bf98b152c0f9",
+      "schema_version": 3,
+      "inputs": [
+        {
+          "name": "images",
+          "shape": [
+            1,
+            640,
+            640,
+            3
+          ],
+          "dtype_id": 0,
+          "dtype": "FLOAT32"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Identity",
+          "shape": [
+            1,
+            37,
+            8400
+          ],
+          "dtype_id": 0,
+          "dtype": "FLOAT32"
+        },
+        {
+          "name": "Identity_1",
+          "shape": [
+            1,
+            160,
+            160,
+            32
+          ],
+          "dtype_id": 0,
+          "dtype": "FLOAT32"
+        }
+      ],
+      "operator_count": 287,
+      "inference_executed": false,
+      "export_metadata": {
+        "description": "Ultralytics YOLOv8n-seg model trained on /kaggle/working/AgriEye-palay-detect-updated-2/data.yaml",
+        "author": "Ultralytics",
+        "date": "2026-05-11T08:41:25.211199",
+        "version": "8.4.41",
+        "license": "AGPL-3.0 License (https://ultralytics.com/license)",
+        "docs": "https://docs.ultralytics.com",
+        "stride": 32,
+        "task": "segment",
+        "batch": 1,
+        "imgsz": [
+          640,
+          640
+        ],
+        "names": {
+          "0": "Palay"
+        },
+        "args": {
+          "batch": 1,
+          "fraction": 1.0,
+          "half": false,
+          "int8": false,
+          "nms": false
+        },
+        "channels": 3,
+        "end2end": false
+      }
+    },
+    "disease.tflite": {
+      "file": "disease.tflite",
+      "sha256": "4b53bcb359bcfff543da2438ddd45e45e12de9d3e2d1abeaa98c93701f58a873",
+      "schema_version": 3,
+      "inputs": [
+        {
+          "name": "images",
+          "shape": [
+            1,
+            832,
+            832,
+            3
+          ],
+          "dtype_id": 0,
+          "dtype": "FLOAT32"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Identity",
+          "shape": [
+            1,
+            41,
+            14196
+          ],
+          "dtype_id": 0,
+          "dtype": "FLOAT32"
+        },
+        {
+          "name": "Identity_1",
+          "shape": [
+            1,
+            208,
+            208,
+            32
+          ],
+          "dtype_id": 0,
+          "dtype": "FLOAT32"
+        }
+      ],
+      "operator_count": 290,
+      "inference_executed": false,
+      "export_metadata": {
+        "description": "Ultralytics YOLOv8n-seg model trained on agrieye_fixed.yaml",
+        "author": "Ultralytics",
+        "date": "2026-05-18T22:16:50.185511",
+        "version": "8.4.41",
+        "license": "AGPL-3.0 License (https://ultralytics.com/license)",
+        "docs": "https://docs.ultralytics.com",
+        "stride": 32,
+        "task": "segment",
+        "batch": 1,
+        "imgsz": [
+          832,
+          832
+        ],
+        "names": {
+          "0": "BLB",
+          "1": "BLS",
+          "2": "HEALTHY",
+          "3": "LEAF BLAST",
+          "4": "NBS"
+        },
+        "args": {
+          "batch": 1,
+          "fraction": 1.0,
+          "half": false,
+          "int8": false,
+          "nms": false
+        },
+        "channels": 3,
+        "end2end": false
+      }
+    }
+  }
+}

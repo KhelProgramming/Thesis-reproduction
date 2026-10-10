@@ -1,0 +1,653 @@
+[
+  {
+    "sha256": "69e7b4d51b2d075910ef9dfcd1a4ad17a7e1f27a2b1107b85bd8e4f3faf8d9d6",
+    "members": [
+      {
+        "split": "train",
+        "image": "train/images/BLB-05-_jpg.rf.29d7b871500dd989b8aa045e48c7dec9.jpg",
+        "label_sha256": "40a456bc22e5da80637582ca44d5e6eec6e03938e0cbfe7137fa05b9c6aef664"
+      },
+      {
+        "split": "valid",
+        "image": "valid/images/BLB-120-_jpg.rf.fe54b2c0aa55bc81018d1d5c8a1c9cf0.jpg",
+        "label_sha256": "7374ace2e57890ada54a1e86823e21bec24a24fc96e75053c605182f0b406720"
+      }
+    ],
+    "cross_split": true
+  },
+  {
+    "sha256": "92d8eccae45db57c94eec7716c8b348936b4680df4ec5960cdb9b3155317d794",
+    "members": [
+      {
+        "split": "train",
+        "image": "train/images/BLB-131-_jpg.rf.82a022afb477659edde726777b0cc2c4.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "split": "valid",
+        "image": "valid/images/BLB-11-_jpg.rf.f0935c38285927c3f509499cd4b287d6.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ],
+    "cross_split": true
+  },
+  {
+    "sha256": "c745eea077c583afb5b947c41fe7e8580d7e7adbca1ae93142b0005959605ec2",
+    "members": [
+      {
+        "split": "train",
+        "image": "train/images/BLB-133-_jpg.rf.8f6bca26815524fa9f29627544d35d84.jpg",
+        "label_sha256": "64d49c8ed3911f1d6bf9b4fa55549c4d9f395e614a1ef8a6a058d91363024d57"
+      },
+      {
+        "split": "valid",
+        "image": "valid/images/BLB-13-_jpg.rf.8993fd065cf1740abf89f24f34e4faa1.jpg",
+        "label_sha256": "7380ae3753aeb3117ed35df7d2a6aad7e5c8d20a54140b1f6a5ce75573ad4922"
+      }
+    ],
+    "cross_split": true
+  },
+  {
+    "sha256": "b916ecb3908e0c8bb9cdcfe70326049066cdd62b6fb5bae94c30a763c9418457",
+    "members": [
+      {
+        "split": "train",
+        "image": "train/images/BLB-134-_jpg.rf.418db311a383a75c7c61a2126ff03ef6.jpg",
+        "label_sha256": "74434355190192adeac716a529f0d4ca007ba368c33b6bbe6881d60eda9e989b"
+      },
+      {
+        "split": "valid",
+        "image": "valid/images/BLB-14-_jpg.rf.d9cd720f66d8608fd18c2f549004970f.jpg",
+        "label_sha256": "26832c7ce710cd9f975ca0afd8085cff081dad0e8afbc95bfaf0d2c3e2a9057c"
+      }
+    ],
+    "cross_split": true
+  },
+  {
+    "sha256": "8cf0e2bc184589e29065c85428f3d8e266088bb358e826eb1e2b5aab16b5cb2f",
+    "members": [
+      {
+        "split": "train",
+        "image": "train/images/BLB-136-_jpg.rf.c2683adb256a553da33074f0ef44b66b.jpg",
+        "label_sha256": "f0b39cce825bda35bcfd63e9504301fb9bfff7c0b62c3a6ab32066bef41aefe4"
+      },
+      {
+        "split": "train",
+        "image": "train/images/BLB-16-_jpg.rf.b48e5360c578ff879814131e291e0915.jpg",
+        "label_sha256": "545d0d32b82fcfde4738f5b4bd26224ea7e94330d26949161afc3a11210c1f61"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "ead48d8526b4c9e6dcd96411387c65f8e0fe2830d0a0b0efce785cb466cf0056",
+    "members": [
+      {
+        "split": "train",
+        "image": "train/images/BLB-138-_jpg.rf.746faec6dc543fccbd13b95bfaa71560.jpg",
+        "label_sha256": "a9bb8b4d246f9b59af9adc2fdbff51ca8d81e606bbc4b6fe0e873c6194813f69"
+      },
+      {
+        "split": "train",
+        "image": "train/images/BLB-18-_jpg.rf.97acd48f7dceb1e1ef6d1c68e2ba59f4.jpg",
+        "label_sha256": "39cbc5951ee492f145291f9410e0bf4444b3f9b352f68eada772e5d446611fbb"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "662ffba9e16514b7bc6d8cfdd3e4d5da82a89ed34442644e8c3f5107e8b34483",
+    "members": [
+      {
+        "split": "train",
+        "image": "train/images/BLB-15-_jpg.rf.bc65b98c852d8309d4dc1805b1385fb5.jpg",
+        "label_sha256": "f8ee8aed4c2754b3c69f136814a930bdf151d7a87c32f42c65a02e79e13640d4"
+      },
+      {
+        "split": "test",
+        "image": "test/images/BLB-135-_jpg.rf.1fe47ba19f11ec7da595c736fbe1a6c0.jpg",
+        "label_sha256": "5bdb61614fba35a263fb911669c3330fef67802003d0a8d99ef2eb2259dd9bdb"
+      }
+    ],
+    "cross_split": true
+  },
+  {
+    "sha256": "9e88d057d19aad86f40ea11161675b2c95babe09d2fffca0cc7c1f09396e9dac",
+    "members": [
+      {
+        "split": "train",
+        "image": "train/images/BLB-23-_JPG_JPG.rf.a0856419bdc262962638017b423b5b73.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "split": "train",
+        "image": "train/images/BLB-505-_JPG_JPG_JPG_JPG.rf.a73e7f96b96488ca59a4777f6a284994.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "9cda99f5669ad07e6f70bd5ec2ce22ece586354c794c63682be5d32bb52c9a67",
+    "members": [
+      {
+        "split": "train",
+        "image": "train/images/Leaf_blast-302-_jpg.rf.bb660587ab72ab99bca2b30d49a63e7f.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "split": "train",
+        "image": "train/images/Leaf_blast-329-_jpg.rf.e235742dfa508bcae78f76cd2666dbe5.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "split": "train",
+        "image": "train/images/Leaf_blast-360-_jpg.rf.aecba7ae46f06be70bdb22bf3cb144f4.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "split": "test",
+        "image": "test/images/Leaf_blast-320-_jpg.rf.d6546e05b9d03ddb5db906f4639e93f8.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ],
+    "cross_split": true
+  },
+  {
+    "sha256": "a06cca301e2702c9db8cd205f8c2b55445d18b028c84b3e5cbe04efee22c5ad7",
+    "members": [
+      {
+        "split": "train",
+        "image": "train/images/Leaf_blast-305-_jpg.rf.3f89742b5d3edc5cac4da831c016c9f4.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "split": "train",
+        "image": "train/images/Leaf_blast-316-_jpg.rf.af871bd527cd6df6d8f31ae8c6941075.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "9eaa31f2f4a121a47592378dc5c5960aa756bde9634b3ca958b1ce53315bea40",
+    "members": [
+      {
+        "split": "train",
+        "image": "train/images/Leaf_blast-305-_jpg.rf.c5406920755ca4a921f97e5f05f036d4.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "split": "train",
+        "image": "train/images/Leaf_blast-316-_jpg.rf.ea96566149ed21f7ce2890a6887581eb.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "4b6e8e38a586b4f776475f627789fcd6a2ecb06a3eec4ddff60399408f20e269",
+    "members": [
+      {
+        "split": "train",
+        "image": "train/images/Leaf_blast-310-_jpg.rf.a1cda9cf736867b66e946af30bc5b4cf.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "split": "valid",
+        "image": "valid/images/Leaf_blast-328-_jpg.rf.d6611bb5105fd4b71dffa4e6835df5fd.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ],
+    "cross_split": true
+  },
+  {
+    "sha256": "df157e164d1fa467e895b94e3cc65a78a986fb6283157fbf4df992d2f02c95eb",
+    "members": [
+      {
+        "split": "train",
+        "image": "train/images/Leaf_blast-310-_jpg.rf.c518cb8d568e57bbf9bedac70ac34308.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "split": "valid",
+        "image": "valid/images/Leaf_blast-328-_jpg.rf.d29883957183eb3c45e9a6d4d514d35c.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ],
+    "cross_split": true
+  },
+  {
+    "sha256": "878759027b0591653cfb4cc12a7f469fc51045b4b3bb0c514ea2eb3f092d22a9",
+    "members": [
+      {
+        "split": "train",
+        "image": "train/images/Leaf_blast-312-_jpg.rf.3979aecf7bb85da8619fd6e93fe3b06d.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "split": "test",
+        "image": "test/images/Leaf_blast-322-_jpg.rf.1ada8bc15db1b57a06dac312576ce8b2.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ],
+    "cross_split": true
+  },
+  {
+    "sha256": "132fc913fa5d76f25aa5b4341112dc500b5da36d8052a3d7a0cc3cd5acc05a11",
+    "members": [
+      {
+        "split": "train",
+        "image": "train/images/Leaf_blast-312-_jpg.rf.f8701a6e708f8482cfe942380d3f7433.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "split": "test",
+        "image": "test/images/Leaf_blast-322-_jpg.rf.9d96a94bea0a562708c97c7637d22f5a.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ],
+    "cross_split": true
+  },
+  {
+    "sha256": "05411e66fc5e068197f4679f1a9fa8e144fe6e4c557072471b60e00fdcbd2c9f",
+    "members": [
+      {
+        "split": "train",
+        "image": "train/images/Leaf_blast-321-_jpg.rf.1b7bad7379f148f8eb700720d8ec8300.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "split": "test",
+        "image": "test/images/Leaf_blast-324-_jpg.rf.6f258528cb81dade0160f879f6e8370a.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ],
+    "cross_split": true
+  },
+  {
+    "sha256": "eff3a3f664a319b8c746124669080a8df79fb811f1848ecb99b33c641edf7fd7",
+    "members": [
+      {
+        "split": "train",
+        "image": "train/images/Leaf_blast-321-_jpg.rf.eec777a933549df242833d02d6e4e11f.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "split": "test",
+        "image": "test/images/Leaf_blast-324-_jpg.rf.3783e593bbc9301730b6988e24490cb2.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ],
+    "cross_split": true
+  },
+  {
+    "sha256": "2e7d32e3917d6cbccfb731a8cbd2a9f303d3badbc11a9bcbf742fa405ec45197",
+    "members": [
+      {
+        "split": "train",
+        "image": "train/images/Leaf_blast-329-_jpg.rf.253258cac6d298ce1db0aabe1cae0d7f.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "split": "test",
+        "image": "test/images/Leaf_blast-320-_jpg.rf.a4bcd03a83e251ec6c0d9d1f5bb64f2f.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ],
+    "cross_split": true
+  },
+  {
+    "sha256": "f550b697a7e9969b4b238f246fc35409a10d577378a1b6ed93d58ff57b397cc3",
+    "members": [
+      {
+        "split": "train",
+        "image": "train/images/Leaf_blast-337-_jpg.rf.1c1068a7f514e65095f7d5dcd906aa8c.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "split": "train",
+        "image": "train/images/Leaf_blast-352-_jpg.rf.37c040a8c7ed9cf86e54936a9ab7c368.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "split": "valid",
+        "image": "valid/images/Leaf_blast-330-_jpg.rf.9cd9a83662e4856587a5ee13347a98bf.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ],
+    "cross_split": true
+  },
+  {
+    "sha256": "aa3b22b8c9d6a3cc996eed4587b4882e1dc9a9aa9928684aa07474da892a2b6e",
+    "members": [
+      {
+        "split": "train",
+        "image": "train/images/Leaf_blast-337-_jpg.rf.4073a6f601dcd967e01677061fc51e18.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "split": "train",
+        "image": "train/images/Leaf_blast-337-_jpg.rf.5cdfcf723ba10b2c1cec561725e2e2c2.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "split": "train",
+        "image": "train/images/Leaf_blast-337-_jpg.rf.cffa86237c9b4ccbc065e465f08267a3.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "2d9e6db7e296b423ee1820694bca7eaf3ed252403587b290688801f78e9952eb",
+    "members": [
+      {
+        "split": "train",
+        "image": "train/images/Leaf_blast-337-_jpg.rf.4a24a890a9674fc0593ce8fa4e5af1a9.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "split": "train",
+        "image": "train/images/Leaf_blast-337-_jpg.rf.6eb1ea9f75fe961e8ceebd03bdd08199.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "split": "train",
+        "image": "train/images/Leaf_blast-337-_jpg.rf.f8d2569759f15ee3112f5c22aedddb9a.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "split": "train",
+        "image": "train/images/Leaf_blast-345-_jpg.rf.e880fb67281cb54f076842d223b0e852.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "split": "train",
+        "image": "train/images/Leaf_blast-348-_jpg.rf.5d4013eaa156dee7b480ca68b4d49042.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "split": "train",
+        "image": "train/images/Leaf_blast-348-_jpg.rf.78b5001f919755b18349703a242a6e7c.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "split": "train",
+        "image": "train/images/Leaf_blast-352-_jpg.rf.02512bf3c6bab1cb5b036349635f16a2.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "split": "train",
+        "image": "train/images/Leaf_blast-352-_jpg.rf.25d83bd06b5a8c58849802ce08c3a4b1.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "split": "train",
+        "image": "train/images/Leaf_blast-353-_jpg.rf.8ec05cbbfb40db3a6c8a8ce4c41a9e4f.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "split": "train",
+        "image": "train/images/Leaf_blast-353-_jpg.rf.9ffa1cf0567d3d101afb8df17258026c.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "split": "train",
+        "image": "train/images/Leaf_blast-355-_jpg.rf.59c204664d06ddbaf0b55aca9d5d2bf1.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "split": "train",
+        "image": "train/images/Leaf_blast-355-_jpg.rf.a6747afa61e8ce394e894032c1dcc6e7.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "split": "train",
+        "image": "train/images/Leaf_blast-356-_jpg.rf.4bfb5392e2df26b625a22d06d23ac4cc.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "split": "train",
+        "image": "train/images/Leaf_blast-356-_jpg.rf.9eae926cb43c7b0100ddc886cc0cb1ba.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "split": "valid",
+        "image": "valid/images/Leaf_blast-338-_jpg.rf.c275cb6f4587e40638f7d25e772ade79.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "split": "valid",
+        "image": "valid/images/Leaf_blast-338-_jpg.rf.e87852967aa695d61b105955367de259.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "split": "valid",
+        "image": "valid/images/Leaf_blast-346-_jpg.rf.486cd89eaa23f8f9f34dcca929352b25.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "split": "valid",
+        "image": "valid/images/Leaf_blast-346-_jpg.rf.e43da1c970aeb666ffd788e54cf60457.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "split": "test",
+        "image": "test/images/Leaf_blast-343-_jpg.rf.2a221558e9979b9a217702910d85ff33.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "split": "test",
+        "image": "test/images/Leaf_blast-343-_jpg.rf.464a1db3d19edc0e01cdf92a5a6c7d14.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "split": "test",
+        "image": "test/images/Leaf_blast-344-_jpg.rf.04d13e4aa504e8433952953166066a0b.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "split": "test",
+        "image": "test/images/Leaf_blast-344-_jpg.rf.b5c7929aed15b44c8d1ba65b0498a8ff.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "split": "test",
+        "image": "test/images/Leaf_blast-344-_jpg.rf.b86a7d2cde6a6c1fbeb972419b49052a.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "split": "test",
+        "image": "test/images/Leaf_blast-349-_jpg.rf.6f460ad6926daddefb431373b2665800.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "split": "test",
+        "image": "test/images/Leaf_blast-349-_jpg.rf.ec05c9fd3de6d28ad357e8b964de45c1.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "split": "test",
+        "image": "test/images/Leaf_blast-350-_jpg.rf.36580681aec0cf95a8cb92908d0e51e5.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "split": "test",
+        "image": "test/images/Leaf_blast-350-_jpg.rf.6e598c35dc479242f60485b1cfd48dc5.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "split": "test",
+        "image": "test/images/Leaf_blast-351-_jpg.rf.13b5fd8492c29ac3ad96912996c87024.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "split": "test",
+        "image": "test/images/Leaf_blast-351-_jpg.rf.9708c78837bc2158c6a07bfbb29ef8bf.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ],
+    "cross_split": true
+  },
+  {
+    "sha256": "aa397b0b6b333e4b3a74566e24c36562fb27efc4300bf4efbcf13dfbb3dc7b2c",
+    "members": [
+      {
+        "split": "train",
+        "image": "train/images/Leaf_blast-337-_jpg.rf.b0f20e746a79c73a7a050ba727d3b7d8.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "split": "valid",
+        "image": "valid/images/Leaf_blast-330-_jpg.rf.f3a99c438fb5a77fe46eb6fec92cdd64.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ],
+    "cross_split": true
+  },
+  {
+    "sha256": "f548b315809dd7ffd8e4e50edb737e0d70b246c97d4d62ab0ee8dd069e1b04f4",
+    "members": [
+      {
+        "split": "train",
+        "image": "train/images/Leaf_blast-338-_jpg.rf.13cb405ba663d99ce40de887227e568d.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "split": "valid",
+        "image": "valid/images/Leaf_blast-365-_jpg.rf.ffc1752edac17c84fcd62d2bfc901e4c.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ],
+    "cross_split": true
+  },
+  {
+    "sha256": "19b5624df1ceafdc6a3a2463bcc6f999a59b2e739f9c2f6dc47e8ce0d734c4e2",
+    "members": [
+      {
+        "split": "train",
+        "image": "train/images/Leaf_blast-338-_jpg.rf.a88fd8601218a5c4c2546ebb0600c575.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "split": "valid",
+        "image": "valid/images/Leaf_blast-365-_jpg.rf.931a504c725b6914af9bec54f5cd9b5a.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ],
+    "cross_split": true
+  },
+  {
+    "sha256": "ffeb6b332080aac43bdacfb3ec8a6fb417817b41a4a81032d1b1b9f4510e6cf5",
+    "members": [
+      {
+        "split": "train",
+        "image": "train/images/Leaf_blast-348-_jpg.rf.15bdfa4889f6b40482f882e706f6a13d.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "split": "train",
+        "image": "train/images/Leaf_blast-348-_jpg.rf.8a0947a83f18d50baac0601c351c80f3.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "28c570de89af106bb735be8c46384d0467d80519ab58a1bef2c788cb381e9da0",
+    "members": [
+      {
+        "split": "train",
+        "image": "train/images/Leaf_blast-352-_jpg.rf.4c078ecc256766d3cdc74d279cdb7f27.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "split": "train",
+        "image": "train/images/Leaf_blast-352-_jpg.rf.f7cb1d5b9f0135dc72cd6e3f7c4812d9.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "060e753be4b65ede60381d04efdfdfa59e1da5af3e60999927cc8e104d0424e2",
+    "members": [
+      {
+        "split": "train",
+        "image": "train/images/Leaf_blast-353-_jpg.rf.471e490bc3ae87c75d86054023a2b27d.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "split": "train",
+        "image": "train/images/Leaf_blast-353-_jpg.rf.74383475babba5a410b2beaefb67dedf.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "e0ea6ed5d3a3b7790a9f00d35aad5343adadcf1dc797b5fdb9984ee21c1d080f",
+    "members": [
+      {
+        "split": "train",
+        "image": "train/images/Leaf_blast-355-_jpg.rf.a19f8e075a321242f185d3300ad25433.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "split": "train",
+        "image": "train/images/Leaf_blast-355-_jpg.rf.e9df604ad36f2139a0bcc4ab4ac23fe7.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "138200c47514145992601961a08558a515df560a611d32f169bca528f0ac01ba",
+    "members": [
+      {
+        "split": "train",
+        "image": "train/images/Leaf_blast-356-_jpg.rf.a6a1058e2a82bd2a5118d0f3c8be1b0f.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "split": "train",
+        "image": "train/images/Leaf_blast-356-_jpg.rf.c5dd1baf480e1cb641ed7b7ecd556df7.jpg",
+        "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ],
+    "cross_split": false
+  },
+  {
+    "sha256": "a60448c3d92c0e5cfcb4bbe10a35b0ddf80fe3d1ddaf19c564c91b3ad5e98ce5",
+    "members": [
+      {
+        "split": "valid",
+        "image": "valid/images/BLB-12-_jpg.rf.e93e980b6c36b283ee0bf773a99a40b3.jpg",
+        "label_sha256": "b5d137076c9699a08c8aff145c852678170da58c0e4193306cbde05f5a719bad"
+      },
+      {
+        "split": "test",
+        "image": "test/images/BLB-132-_jpg.rf.e5dc15d7e0f9884a1aa2ce1b0370be5b.jpg",
+        "label_sha256": "d6ba783741e2b0a626f6f74ca4b323d005b875db16a1950099afee4f5d172dcb"
+      }
+    ],
+    "cross_split": true
+  },
+  {
+    "sha256": "d9ca698d2e7c1f13ed26bef51702eb89b7616f35ee1d228b09340718c950b9dc",
+    "members": [
+      {
+        "split": "valid",
+        "image": "valid/images/BLB-175-_jpg.rf.f3dea8069a9d976e175f08c2890fe41e.jpg",
+        "label_sha256": "572d6b2d8e483e2b2a9ff6a633b62049f05e355a142accfd022c00cf5a382009"
+      },
+      {
+        "split": "valid",
+        "image": "valid/images/BLB-21-_jpg.rf.aaa1343e49f932b42b1b2c5427e4728e.jpg",
+        "label_sha256": "c677b21aaac47bc7c37ff48a73ac107b6052b25c04182bbe9f12a0e37b2a2062"
+      }
+    ],
+    "cross_split": false
+  }
+]

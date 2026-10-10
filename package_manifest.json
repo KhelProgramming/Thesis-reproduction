@@ -1,0 +1,52 @@
+{
+  "package": "agrieye_reproduction",
+  "created_date": "2026-10-06",
+  "paper_sha256": "5d772ae210c99c6c39a507c99350dc037f9d955e619ee836eb2a1ab4191f60b2",
+  "verification": {
+    "unit_tests_passed": 4,
+    "actual_cpu_training_integration_passed": true,
+    "integration_image_size": 64,
+    "integration_train_images": 4,
+    "integration_validation_images": 4,
+    "integration_epochs": 1,
+    "integration_optimizer_updates": 2,
+    "integration_initialization": "random YOLOv8n-Seg architecture checkpoint, software test only",
+    "integration_environment": {
+      "python": "3.12.14",
+      "torch": "2.8.0+cpu",
+      "torchvision": "0.23.0+cpu",
+      "ultralytics": "8.4.41"
+    },
+    "real_dataset_training_executed": false,
+    "cuda_training_executed": false,
+    "colab_ui_executed": false
+  },
+  "file_sha256": {
+    "README.md": "cd53c74c33af85cbcb13cb168d8ac00fecfdbc324a5a7ede84b1c4ff1bdf2cac",
+    "START_HERE.md": "eafeb9bec0d426c9536f40838cb789d80c4a7bc500d9becd52b9046b6c946866",
+    "VERIFICATION.md": "e1e6045a6d20bac252acefe37f27ac9cd6f25c60ca449f3280395c88c6380bbe",
+    "agrieye/__init__.py": "ccd3609bd0d88ff8d8a65910634e6d34897c716c39c903bb99814f3af220183b",
+    "agrieye/common.py": "9bb3ad30dd78c3aa124e4dc612cd5189bd227b7545a9fabdc62563653aa0164c",
+    "agrieye/data.py": "47eb74a21b79f550ba9a37cd9c09e0d832e6e072d9b6051b285338e853560332",
+    "agrieye/metrics.py": "759efff13839e8354e517ce5d673a26cf8772f439c9d16d20b445fd6f8687870",
+    "agrieye/pipeline.py": "ef7df334fb27a3ef052da322c2bfc2332dee88fa4ba07d661bfacbb82b4e6feb",
+    "configs/disease_paper_50e.yaml": "48fdac68ab1246f1b12954b1f3690d4c1fb76cb4d08edf5f992cc4dc28564f7b",
+    "configs/disease_v8_100e_candidate.yaml": "67cd69c2bf3b687bb75736bad3a8178f38679de9bf7e56accef2bd1e55146c31",
+    "configs/evaluation.yaml": "82550b72da56c009e20d68831cbd569a320d60035dc4fead86856f20e1b1f8ab",
+    "configs/leaf_paper_200e.yaml": "3ce338148db8a0af4e138f9e054c7acbfdecaa6798ef6651be158ffd67082051",
+    "notebooks/AgriEye_Baseline_Colab.ipynb": "5861a7a815f6ee2258f4012db309d651aaf437246b247f4d8bd8781aa1a4eec8",
+    "references/AgriEye_training_excerpt.pdf": "5117c17737090fa6861bd73b87fbc93f46c73bedca271f461c31b93c79ec3d75",
+    "references/SOURCE_NOTES.md": "3dfb3252c0798727696fcebe7095109b755c157a1e71cf987a886d1eb3e6428d",
+    "references/manuscript_training_extracted.py": "fd193590df1f0a36bc8802a694340bc6bac6608ae59ea052e4a1d39ec04a01b8",
+    "references/paper_benchmarks.json": "5510136c2d72c122e7871a54de1cbc8a307f1d060f6c47ab2250fe2a92374186",
+    "references/released_model_metadata.json": "500a3b36049ba1f9bf59d4630a66de64d0e7c58f624881dd038ed9d433a86239",
+    "references/supplied_export_metadata/README.dataset.txt": "56a1bbd85a2994c0be92a8fd758665fdf3c6404290b735ca85f5a09f9312f914",
+    "references/supplied_export_metadata/README.roboflow.txt": "95e408dddb118556cf899a7b6484ecb50a5a7ecf01f1309c0d42a354247a4b4d",
+    "references/supplied_export_metadata/data.yaml": "480a31112f581d55e2b95efe7bf44c5006d1aa0ada5329e6ff461c1c296134fd",
+    "requirements-audit.txt": "50da6822bdcbeb9d3aa7b3e056ddfd9f94ce57cf225ec534bce246b1d896b626",
+    "requirements.txt": "779d5996b40dc021fad28e42ce1a8f008c2808c3564b1c69d91e01c3902953c7",
+    "run.py": "259e4aa56a70278c41082017b26b4326f889e924d0118c54217f8cc197f44d18",
+    "tests/test_records_and_data.py": "1b7cb3722eb32950df1d00732d0a6e1e940b1d3966c920137264c705d68c5d39",
+    "tools/audit_dataset.py": "890772d90f547dfb79d7164cbce5a963595af080d60bfe9a9f50855815a5369b"
+  }
+}

@@ -1,0 +1,5 @@
+# Our reproducibility choices; these values are not specified in the paper.
+seed: 0
+deterministic: true
+workers: 2
+

@@ -1,0 +1,33 @@
+DATASET: /home/michaelreybelga/Fourth-Year/Thesis/agrieye_reproduction/data/raw/agrieye_export
+YAML: /home/michaelreybelga/Fourth-Year/Thesis/agrieye_reproduction/data/raw/agrieye_export/data.yaml
+DECLARED nc: 4
+CLASS MAPPING: {0: 'BLB', 1: 'BLS', 2: 'LEAF BLAST', 3: 'NBS'}
+ACTUAL IMAGE-LINKED CLASS IDs: {2: 1372, 0: 1372, 1: 4843, 3: 4289}
+
+split  images  polygons  boxes  empty_labels  missing_labels  orphan_labels
+train  6144    9494      0      2550          0               0            
+valid  752     1186      0      249           0               0            
+test   756     1196      0      256           0               0            
+
+split  class_id  class_name  annotation_rows  valid_geometry_rows  images_with_valid_geometry
+train  0         BLB         940              940                  792                       
+train  1         BLS         3962             3962                 1122                      
+train  2         LEAF BLAST  1018             1018                 572                       
+train  3         NBS         3574             3574                 1108                      
+valid  0         BLB         228              228                  166                       
+valid  1         BLS         403              403                  146                       
+valid  2         LEAF BLAST  140              140                  68                        
+valid  3         NBS         415              415                  123                       
+test   0         BLB         204              204                  163                       
+test   1         BLS         478              478                  152                       
+test   2         LEAF BLAST  214              214                  97                        
+test   3         NBS         300              300                  88                        
+
+HEALTHY: Not declared in this YAML; cannot identify a Healthy class from numeric IDs alone
+Healthy valid annotation rows: 0
+Matches released model's FIVE-CLASS ORDER: False
+Exact cross-split duplicate groups: 19
+Issues: {'yaml_path_not_found': 3}
+Empty labels and filenames do not prove a Healthy class. No dataset files changed.
+Path issues describe the literal YAML paths; physical split folders were scanned and no paths were repaired.
+This checks dataset contents, not model accuracy or successful benchmark reproduction.

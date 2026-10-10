@@ -1,0 +1,100 @@
+{
+  "audited_at_utc": "20261006T122324059257Z",
+  "dataset_root": "/home/michaelreybelga/Fourth-Year/Thesis/agrieye_reproduction/data/raw/agrieye_export",
+  "names": [
+    "BLB",
+    "BLS",
+    "LEAF BLAST",
+    "NBS"
+  ],
+  "declared_paths": {
+    "train": "../train/images",
+    "val": "../valid/images",
+    "test": "../test/images"
+  },
+  "inspected_paths": {
+    "train": "/home/michaelreybelga/Fourth-Year/Thesis/agrieye_reproduction/data/raw/agrieye_export/train",
+    "val": "/home/michaelreybelga/Fourth-Year/Thesis/agrieye_reproduction/data/raw/agrieye_export/valid",
+    "test": "/home/michaelreybelga/Fourth-Year/Thesis/agrieye_reproduction/data/raw/agrieye_export/test"
+  },
+  "roboflow": {
+    "workspace": "agrieye",
+    "project": "agrieye_verified-disease-no-leaf-finalch",
+    "version": 5,
+    "license": "CC BY 4.0",
+    "url": "https://universe.roboflow.com/agrieye/agrieye_verified-disease-no-leaf-finalch/dataset/5"
+  },
+  "splits": {
+    "train": {
+      "images": 6144,
+      "readable_images": 6144,
+      "missing_labels": 0,
+      "empty_labels": 2550,
+      "polygon_instances": 9494,
+      "images_per_class": [
+        792,
+        1122,
+        572,
+        1108
+      ],
+      "instances_per_class": [
+        940,
+        3962,
+        1018,
+        3574
+      ]
+    },
+    "val": {
+      "images": 752,
+      "readable_images": 752,
+      "missing_labels": 0,
+      "empty_labels": 249,
+      "polygon_instances": 1186,
+      "images_per_class": [
+        166,
+        146,
+        68,
+        123
+      ],
+      "instances_per_class": [
+        228,
+        403,
+        140,
+        415
+      ]
+    },
+    "test": {
+      "images": 756,
+      "readable_images": 756,
+      "missing_labels": 0,
+      "empty_labels": 256,
+      "polygon_instances": 1196,
+      "images_per_class": [
+        163,
+        152,
+        97,
+        88
+      ],
+      "instances_per_class": [
+        204,
+        478,
+        214,
+        300
+      ]
+    }
+  },
+  "issues_by_severity": {},
+  "cross_split_overlap_groups": {
+    "exact_image_bytes": 19,
+    "parent_filename_candidate": 38
+  },
+  "review_required": true,
+  "training_executed": false,
+  "limitations": [
+    "Filename groups are candidates, not confirmed leaf/plant identities.",
+    "Exact hashes miss resized, re-encoded, cropped, and other near duplicates.",
+    "No diagnosis, annotation completeness, or polygon self-intersection verification.",
+    "An empty label can be a valid negative image; it does not establish a Healthy class.",
+    "No capture-light, farm, date, or session metadata verified."
+  ]
+}

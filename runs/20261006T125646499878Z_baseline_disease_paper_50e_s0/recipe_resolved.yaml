@@ -1,0 +1,37 @@
+id: disease_paper_50e
+status: documented_appendix_recipe_not_confirmed_final_run
+source: AgriEye manuscript printed pp.159-160 / PDF pp.176-177; Figure 15 p.68
+model: yolov8n-seg.pt
+expected_classes: null
+notes:
+- The appendix shows 50 epochs; the final Table 12 v8 reports 100 epochs and 5 classes.
+- A four-class export makes this a four-class recipe pilot, not reproduction of the
+  final five-class model.
+- Paths and run names are adapted; overwrite is disabled; seed is recorded explicitly.
+train:
+  epochs: 50
+  imgsz: 640
+  batch: 16
+  optimizer: AdamW
+  lr0: 0.0001
+  lrf: 0.01
+  momentum: 0.937
+  weight_decay: 0.0005
+  patience: 20
+  cos_lr: true
+  hsv_h: 0.015
+  hsv_s: 0.5
+  hsv_v: 0.4
+  degrees: 10.0
+  translate: 0.1
+  scale: 0.4
+  flipud: 0.5
+  fliplr: 0.5
+  mosaic: 1.0
+  mixup: 0.1
+  save_period: 10
+  plots: true
+  verbose: true
+  device: 0
+  amp: true
+recipe_file: /home/michaelreybelga/Fourth-Year/Thesis/agrieye_reproduction/configs/disease_paper_50e.yaml

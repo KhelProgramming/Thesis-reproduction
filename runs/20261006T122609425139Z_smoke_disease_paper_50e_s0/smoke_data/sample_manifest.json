@@ -1,0 +1,636 @@
+[
+  {
+    "split": "train",
+    "image": "train/images/BLB-167-_jpg.rf.6993a88e5d7d88a1e9935df92897987d.jpg",
+    "label": "train/labels/BLB-167-_jpg.rf.6993a88e5d7d88a1e9935df92897987d.txt",
+    "width": "640",
+    "height": "640",
+    "sha256": "2db593b091f14ff761cfc868ad068a8b596b9e96f50b77defb826889c3196240",
+    "parent_name_hint": "BLB-167-_jpg",
+    "valid_polygon_count": "2",
+    "class_ids": [
+      0
+    ],
+    "label_sha256": "76aee0d1364be64e3b385cd01cd299a01e22625d1f1c9f84bcee49deea31c448"
+  },
+  {
+    "split": "train",
+    "image": "train/images/BLS-174-_jpg.rf.59a5ac15bc5c690758f2067339f8abc3.jpg",
+    "label": "train/labels/BLS-174-_jpg.rf.59a5ac15bc5c690758f2067339f8abc3.txt",
+    "width": "640",
+    "height": "640",
+    "sha256": "caad9084f55157628ef7108d29748640f76eac85993b6fc091f6376e23dd4a8e",
+    "parent_name_hint": "BLS-174-_jpg",
+    "valid_polygon_count": "2",
+    "class_ids": [
+      1
+    ],
+    "label_sha256": "dd5880459c53793a14ed145d32f00bcf9591ce8c1bf9f68169dd26f7321a4bed"
+  },
+  {
+    "split": "train",
+    "image": "train/images/Leaf_blast-305-_jpg.rf.2331f6101d42758d66546f5141b27b1a.jpg",
+    "label": "train/labels/Leaf_blast-305-_jpg.rf.2331f6101d42758d66546f5141b27b1a.txt",
+    "width": "640",
+    "height": "640",
+    "sha256": "24c666368626c040a7534b5ee57450ff0869d7155ab2f87f457c62e910bb99d9",
+    "parent_name_hint": "Leaf_blast-305-_jpg",
+    "valid_polygon_count": "1",
+    "class_ids": [
+      2
+    ],
+    "label_sha256": "9757743772ec8e2efc6169fe3cc778fdb267fe37117639b327f601dd5866a9ea"
+  },
+  {
+    "split": "train",
+    "image": "train/images/Narrow_brown_spot-0063-_jpg.rf.6d94697722a6afd2290ac01d261de0fa.jpg",
+    "label": "train/labels/Narrow_brown_spot-0063-_jpg.rf.6d94697722a6afd2290ac01d261de0fa.txt",
+    "width": "640",
+    "height": "640",
+    "sha256": "537ab0250065d3da8e1295508be5090b3e34fcc3328df8c8f764fdb5708507d3",
+    "parent_name_hint": "Narrow_brown_spot-0063-_jpg",
+    "valid_polygon_count": "2",
+    "class_ids": [
+      3
+    ],
+    "label_sha256": "1d0c9a311ef25d4fe5c018ffcf7a7e793d26ee8b6577b1837ade032dc965e67c"
+  },
+  {
+    "split": "train",
+    "image": "train/images/Sheath_Blight-101-_jpg.rf.b9db9e4e6cdc05fbde910d213d8d6355.jpg",
+    "label": "train/labels/Sheath_Blight-101-_jpg.rf.b9db9e4e6cdc05fbde910d213d8d6355.txt",
+    "width": "640",
+    "height": "640",
+    "sha256": "31f33f60f84b439e4ff7505e8db6c80054c368e0bf67bbaaf5f3f956fb56eb9c",
+    "parent_name_hint": "Sheath_Blight-101-_jpg",
+    "valid_polygon_count": "0",
+    "class_ids": [],
+    "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "split": "train",
+    "image": "train/images/Leaf_blast-339-_jpg.rf.02ef4f4676da3f4e0c61ba759a40559e.jpg",
+    "label": "train/labels/Leaf_blast-339-_jpg.rf.02ef4f4676da3f4e0c61ba759a40559e.txt",
+    "width": "640",
+    "height": "640",
+    "sha256": "bb8097b606bf242dba1ae1731efb579b9974b02c68b64d725d959c413bb3f161",
+    "parent_name_hint": "Leaf_blast-339-_jpg",
+    "valid_polygon_count": "0",
+    "class_ids": [],
+    "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "split": "train",
+    "image": "train/images/Sheath_Blight-16-_jpg.rf.419de7caf1cbe290cfba2bc4146f5197.jpg",
+    "label": "train/labels/Sheath_Blight-16-_jpg.rf.419de7caf1cbe290cfba2bc4146f5197.txt",
+    "width": "640",
+    "height": "640",
+    "sha256": "377f19b8f600d3843298857ec098ea3c54480e4616c3bb6f127d5bcd496d3b44",
+    "parent_name_hint": "Sheath_Blight-16-_jpg",
+    "valid_polygon_count": "0",
+    "class_ids": [],
+    "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "split": "train",
+    "image": "train/images/BLB-109-_jpg.rf.e50360b8f2b41637ff1de0faf31adabf.jpg",
+    "label": "train/labels/BLB-109-_jpg.rf.e50360b8f2b41637ff1de0faf31adabf.txt",
+    "width": "640",
+    "height": "640",
+    "sha256": "3737c4c387718276dc6f0e00c7ce8ab89eac84423b83c8f3fd9ed1bfa3126acd",
+    "parent_name_hint": "BLB-109-_jpg",
+    "valid_polygon_count": "0",
+    "class_ids": [],
+    "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "split": "train",
+    "image": "train/images/BLS-334-_jpg.rf.43379d98bc043e10035c778625eff2ad.jpg",
+    "label": "train/labels/BLS-334-_jpg.rf.43379d98bc043e10035c778625eff2ad.txt",
+    "width": "640",
+    "height": "640",
+    "sha256": "a4cd6640892f6b323b9c94dfb095de100749452389383652ce8f8b34a6d32ab8",
+    "parent_name_hint": "BLS-334-_jpg",
+    "valid_polygon_count": "4",
+    "class_ids": [
+      1
+    ],
+    "label_sha256": "c8ae9b09d14c0b276fba9fed68a870830d86619a40e2bc0366b94dea4d43d7af"
+  },
+  {
+    "split": "train",
+    "image": "train/images/Narrow_brown_spot-615-_jpg.rf.ad8614c81366c4a0e22bb99d7864c4a8.jpg",
+    "label": "train/labels/Narrow_brown_spot-615-_jpg.rf.ad8614c81366c4a0e22bb99d7864c4a8.txt",
+    "width": "640",
+    "height": "640",
+    "sha256": "69664a6b151291a2b874b6f5156e8b4797c904f1808744ddd7ee44ddeb5e2336",
+    "parent_name_hint": "Narrow_brown_spot-615-_jpg",
+    "valid_polygon_count": "0",
+    "class_ids": [],
+    "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "split": "train",
+    "image": "train/images/Leaf_blast-351-_jpg.rf.6a86630f6e770b81ae5bae57b2296edb.jpg",
+    "label": "train/labels/Leaf_blast-351-_jpg.rf.6a86630f6e770b81ae5bae57b2296edb.txt",
+    "width": "640",
+    "height": "640",
+    "sha256": "8f342f122fdd4d02ff4e31953a65908d93c95164a61efade28fa322da743bff8",
+    "parent_name_hint": "Leaf_blast-351-_jpg",
+    "valid_polygon_count": "0",
+    "class_ids": [],
+    "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "split": "train",
+    "image": "train/images/BLS-206-_jpg.rf.b3bdb53bd062981d072e0ee26d0b2bfc.jpg",
+    "label": "train/labels/BLS-206-_jpg.rf.b3bdb53bd062981d072e0ee26d0b2bfc.txt",
+    "width": "640",
+    "height": "640",
+    "sha256": "3b86ff3c56790eead7505907853654b0bcd2fa39607a1b55f6ca7f2a933cc870",
+    "parent_name_hint": "BLS-206-_jpg",
+    "valid_polygon_count": "4",
+    "class_ids": [
+      1
+    ],
+    "label_sha256": "16aac7d40e71162afacd823c6df7e6bb65e1082009a2b08ea8b17e5dd51476c3"
+  },
+  {
+    "split": "train",
+    "image": "train/images/Leaf-Scald-49-_jpg.rf.1765845a99240d619c0b872f2b41f61e.jpg",
+    "label": "train/labels/Leaf-Scald-49-_jpg.rf.1765845a99240d619c0b872f2b41f61e.txt",
+    "width": "640",
+    "height": "640",
+    "sha256": "e1884dc621241c019126e03f3fd9308850341685dc0d68763a240dfce5febc58",
+    "parent_name_hint": "Leaf-Scald-49-_jpg",
+    "valid_polygon_count": "0",
+    "class_ids": [],
+    "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "split": "train",
+    "image": "train/images/Narrow_brown_spot-864-_jpg.rf.3d129435d5798a663bf148f3c3872b3f.jpg",
+    "label": "train/labels/Narrow_brown_spot-864-_jpg.rf.3d129435d5798a663bf148f3c3872b3f.txt",
+    "width": "640",
+    "height": "640",
+    "sha256": "4580392d7c7c330c306c9b9ad874a1a7856e3f0bbaf49953b335a1d1b2d96efe",
+    "parent_name_hint": "Narrow_brown_spot-864-_jpg",
+    "valid_polygon_count": "0",
+    "class_ids": [],
+    "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "split": "train",
+    "image": "train/images/Leaf_scald-87-_jpg.rf.cd7e80795c757258532e86de5ddf0792.jpg",
+    "label": "train/labels/Leaf_scald-87-_jpg.rf.cd7e80795c757258532e86de5ddf0792.txt",
+    "width": "640",
+    "height": "640",
+    "sha256": "37e186d1112db058b67ca753a75b0068236aca54bd8b76905768737ed964694c",
+    "parent_name_hint": "Leaf_scald-87-_jpg",
+    "valid_polygon_count": "0",
+    "class_ids": [],
+    "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "split": "train",
+    "image": "train/images/BLS-224-_jpg.rf.3b0187e994f928c981a2e5461b547841.jpg",
+    "label": "train/labels/BLS-224-_jpg.rf.3b0187e994f928c981a2e5461b547841.txt",
+    "width": "640",
+    "height": "640",
+    "sha256": "392d7a0a6634339764d72dcd47fd6eae1bb5f02f5a57bca82ff76b1db198615c",
+    "parent_name_hint": "BLS-224-_jpg",
+    "valid_polygon_count": "3",
+    "class_ids": [
+      1
+    ],
+    "label_sha256": "52abe3aca6b9cf850349bcf93e33c696d4716aab352b6c818584bf1d93f1e1d4"
+  },
+  {
+    "split": "train",
+    "image": "train/images/BLS-003-_JPG_JPG_JPG.rf.4a51abd7f0ab342f6c1cd320b3031854.jpg",
+    "label": "train/labels/BLS-003-_JPG_JPG_JPG.rf.4a51abd7f0ab342f6c1cd320b3031854.txt",
+    "width": "640",
+    "height": "640",
+    "sha256": "5d858e89df3f3d8e8de717af5d0341d5002aead05f2513e9da6c61cfca110c6b",
+    "parent_name_hint": "BLS-003-_JPG_JPG_JPG",
+    "valid_polygon_count": "1",
+    "class_ids": [
+      1
+    ],
+    "label_sha256": "8cf07646ec36b6971eb7714480a2fd934472668b75a6680d94564d06f13c0b77"
+  },
+  {
+    "split": "train",
+    "image": "train/images/BLS-217-_jpg.rf.d09615d72b073353a36a22bdf9970b43.jpg",
+    "label": "train/labels/BLS-217-_jpg.rf.d09615d72b073353a36a22bdf9970b43.txt",
+    "width": "640",
+    "height": "640",
+    "sha256": "040599ee8d546a968a73fd475e8341824ca6099666d17a2786f236241e8a83ec",
+    "parent_name_hint": "BLS-217-_jpg",
+    "valid_polygon_count": "3",
+    "class_ids": [
+      1
+    ],
+    "label_sha256": "9bdc58c5ceef19147c6813ebfe691be54dacb836e08f896dc7da672704c978d3"
+  },
+  {
+    "split": "train",
+    "image": "train/images/BLB-134-_jpg.rf.418db311a383a75c7c61a2126ff03ef6.jpg",
+    "label": "train/labels/BLB-134-_jpg.rf.418db311a383a75c7c61a2126ff03ef6.txt",
+    "width": "640",
+    "height": "640",
+    "sha256": "b916ecb3908e0c8bb9cdcfe70326049066cdd62b6fb5bae94c30a763c9418457",
+    "parent_name_hint": "BLB-134-_jpg",
+    "valid_polygon_count": "1",
+    "class_ids": [
+      0
+    ],
+    "label_sha256": "74434355190192adeac716a529f0d4ca007ba368c33b6bbe6881d60eda9e989b"
+  },
+  {
+    "split": "train",
+    "image": "train/images/Leaf_blast-380-_jpg.rf.3303322056a9ee81fbf1d782e571352b.jpg",
+    "label": "train/labels/Leaf_blast-380-_jpg.rf.3303322056a9ee81fbf1d782e571352b.txt",
+    "width": "640",
+    "height": "640",
+    "sha256": "488263597ade0289ec8f3c5ad41e123d9c057ad6c5b155f881dd39ffdb059b45",
+    "parent_name_hint": "Leaf_blast-380-_jpg",
+    "valid_polygon_count": "0",
+    "class_ids": [],
+    "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "split": "train",
+    "image": "train/images/BLS-037-_JPG_JPG_JPG.rf.83c19fedbead71a26f9f41c6c5ff86cf.jpg",
+    "label": "train/labels/BLS-037-_JPG_JPG_JPG.rf.83c19fedbead71a26f9f41c6c5ff86cf.txt",
+    "width": "640",
+    "height": "640",
+    "sha256": "ee5a433370be8f0ba24d7193dd512453e5427e6796a3584f3968b18756d8a5e5",
+    "parent_name_hint": "BLS-037-_JPG_JPG_JPG",
+    "valid_polygon_count": "1",
+    "class_ids": [
+      1
+    ],
+    "label_sha256": "f6cdd0ad6242eefc779eeb01ccd2800119f0845a4f5a55bd2dfe1024d0196d50"
+  },
+  {
+    "split": "train",
+    "image": "train/images/Leaf_blast-404-_jpg.rf.4d7eb7ab6069d174be743dec6d39abbc.jpg",
+    "label": "train/labels/Leaf_blast-404-_jpg.rf.4d7eb7ab6069d174be743dec6d39abbc.txt",
+    "width": "640",
+    "height": "640",
+    "sha256": "1af53ce3c9217358b8da52038aa13bcdd4e51c2dd799b864e038952151cf3ae7",
+    "parent_name_hint": "Leaf_blast-404-_jpg",
+    "valid_polygon_count": "2",
+    "class_ids": [
+      2
+    ],
+    "label_sha256": "eb4c69d6157beaa70b2bb88a75c9d6eac9e78822b16317dc564afbd927ec6921"
+  },
+  {
+    "split": "train",
+    "image": "train/images/Field_Pic-59-_jpg.rf.a2beecf5aa6d338808f42ec6b6f6355f.jpg",
+    "label": "train/labels/Field_Pic-59-_jpg.rf.a2beecf5aa6d338808f42ec6b6f6355f.txt",
+    "width": "640",
+    "height": "640",
+    "sha256": "b31ddbb57c162c93a6be1f089d6a540d519f9f9d3c8424a906ef10be0c01da70",
+    "parent_name_hint": "Field_Pic-59-_jpg",
+    "valid_polygon_count": "0",
+    "class_ids": [],
+    "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "split": "train",
+    "image": "train/images/Leaf_blast-387-_jpg.rf.59ffb38c93e616068001ee35ba650172.jpg",
+    "label": "train/labels/Leaf_blast-387-_jpg.rf.59ffb38c93e616068001ee35ba650172.txt",
+    "width": "640",
+    "height": "640",
+    "sha256": "1f48fa509bcd46af6caf56b81104e66668caff3dff42e68ce7904033193400f5",
+    "parent_name_hint": "Leaf_blast-387-_jpg",
+    "valid_polygon_count": "3",
+    "class_ids": [
+      2
+    ],
+    "label_sha256": "46e92439377756c48ab3dd6dbfe2498fdf3cfa31a500b20dc89fa7a019d98ad5"
+  },
+  {
+    "split": "train",
+    "image": "train/images/BLB-108_jpg.rf.0421172862e83963f0b7641150eeb0c1.jpg",
+    "label": "train/labels/BLB-108_jpg.rf.0421172862e83963f0b7641150eeb0c1.txt",
+    "width": "640",
+    "height": "640",
+    "sha256": "446ec8b5414426f649fd658d4e8f2ba1bae7a1b7a6dbc08a6c60477e19f77d40",
+    "parent_name_hint": "BLB-108_jpg",
+    "valid_polygon_count": "1",
+    "class_ids": [
+      0
+    ],
+    "label_sha256": "2328e258f5869ea6f7a281acf558a3a326473bf63b143c3ef9ff50e52f7d8f06"
+  },
+  {
+    "split": "train",
+    "image": "train/images/Sheath_Blight-88-_jpg.rf.6c9c1140558dd8e7c029245fc53625e0.jpg",
+    "label": "train/labels/Sheath_Blight-88-_jpg.rf.6c9c1140558dd8e7c029245fc53625e0.txt",
+    "width": "640",
+    "height": "640",
+    "sha256": "31eb6aa67de235e20c2782697b0322ac00f18ea749087e5b48bf0ca1f1d77ac4",
+    "parent_name_hint": "Sheath_Blight-88-_jpg",
+    "valid_polygon_count": "0",
+    "class_ids": [],
+    "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "split": "train",
+    "image": "train/images/Leaf_blast-379-_jpg.rf.5a18e9327f7117c5e34b7f3149811437.jpg",
+    "label": "train/labels/Leaf_blast-379-_jpg.rf.5a18e9327f7117c5e34b7f3149811437.txt",
+    "width": "640",
+    "height": "640",
+    "sha256": "f6fce5352eba70839853b9c0cd3a41e8905424a48de571e9e7f3b6540a700573",
+    "parent_name_hint": "Leaf_blast-379-_jpg",
+    "valid_polygon_count": "1",
+    "class_ids": [
+      2
+    ],
+    "label_sha256": "0b54a59ab17981808fdc4eb8b42403f96db7e32f58e316dafe132af3a22e0a84"
+  },
+  {
+    "split": "train",
+    "image": "train/images/Sheath_Blight-132-_jpg.rf.be4bf772c7ea786e8d76412f66069079.jpg",
+    "label": "train/labels/Sheath_Blight-132-_jpg.rf.be4bf772c7ea786e8d76412f66069079.txt",
+    "width": "640",
+    "height": "640",
+    "sha256": "3a562384970f291451b191ce09970fae8bdfae5fab43d1b51acacc08eb19e132",
+    "parent_name_hint": "Sheath_Blight-132-_jpg",
+    "valid_polygon_count": "0",
+    "class_ids": [],
+    "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "split": "train",
+    "image": "train/images/Narrow_brown_spot-205-_jpg.rf.d1969bbfa44d37838b788a4bb5050cef.jpg",
+    "label": "train/labels/Narrow_brown_spot-205-_jpg.rf.d1969bbfa44d37838b788a4bb5050cef.txt",
+    "width": "640",
+    "height": "640",
+    "sha256": "4e6d450d0f0e7704d3725bdcb16cb2bb9352870e0731d7d0223c8bd0178a65e3",
+    "parent_name_hint": "Narrow_brown_spot-205-_jpg",
+    "valid_polygon_count": "6",
+    "class_ids": [
+      3
+    ],
+    "label_sha256": "b8e07d1e9245f5fb043fc619c573211e11324967f323a5dd080f81a1a1c0d353"
+  },
+  {
+    "split": "train",
+    "image": "train/images/Field_Pic-01-_jpg.rf.5c7cd58702178930794abe89ec2ebb62.jpg",
+    "label": "train/labels/Field_Pic-01-_jpg.rf.5c7cd58702178930794abe89ec2ebb62.txt",
+    "width": "640",
+    "height": "640",
+    "sha256": "d34b1906d14cd8751745f0808bebe3d6561ac7af69a9535f088c8c61d5bda37e",
+    "parent_name_hint": "Field_Pic-01-_jpg",
+    "valid_polygon_count": "0",
+    "class_ids": [],
+    "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "split": "train",
+    "image": "train/images/TUNGRO5_73_JPG.rf.793cb5c8e64fa1a92db1ef86d86a35a0.jpg",
+    "label": "train/labels/TUNGRO5_73_JPG.rf.793cb5c8e64fa1a92db1ef86d86a35a0.txt",
+    "width": "640",
+    "height": "640",
+    "sha256": "99ae33c8aa6f69242684d417dcfd79b79303684d8c208bf632efa0301ccf27bf",
+    "parent_name_hint": "TUNGRO5_73_JPG",
+    "valid_polygon_count": "0",
+    "class_ids": [],
+    "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "split": "train",
+    "image": "train/images/BLS-706-_jpg.rf.294ef9c6dc45fe352cc014526e67c1df.jpg",
+    "label": "train/labels/BLS-706-_jpg.rf.294ef9c6dc45fe352cc014526e67c1df.txt",
+    "width": "640",
+    "height": "640",
+    "sha256": "3107f32afb9d9136f10f36da424d698a924950172192c586dbd09c1d65f9367a",
+    "parent_name_hint": "BLS-706-_jpg",
+    "valid_polygon_count": "1",
+    "class_ids": [
+      1
+    ],
+    "label_sha256": "cc661c4bc504c8e59a7e4241c94258624bd7014303b0b1f41aa1ae8fddad911a"
+  },
+  {
+    "split": "val",
+    "image": "valid/images/BLB-086-_jpg.rf.98a78e8c1ffd21922d83dea5074eb78b.jpg",
+    "label": "valid/labels/BLB-086-_jpg.rf.98a78e8c1ffd21922d83dea5074eb78b.txt",
+    "width": "640",
+    "height": "640",
+    "sha256": "434f1cc58ffc5e75cf2ace6b0685907b5abd1c1318c4b48cd66602953ad3c9d2",
+    "parent_name_hint": "BLB-086-_jpg",
+    "valid_polygon_count": "1",
+    "class_ids": [
+      0
+    ],
+    "label_sha256": "415918b813d1582a38fb6f1466ae16d0f7da12d96b6c441ee7e1883142d9d013"
+  },
+  {
+    "split": "val",
+    "image": "valid/images/BLS-588-_jpg.rf.d6cad5b0c7c3db1e2fe91ac35166a962.jpg",
+    "label": "valid/labels/BLS-588-_jpg.rf.d6cad5b0c7c3db1e2fe91ac35166a962.txt",
+    "width": "640",
+    "height": "640",
+    "sha256": "481e354158b0ed28435f0085d617fd7b86408096fee44781f532dc1b37407b19",
+    "parent_name_hint": "BLS-588-_jpg",
+    "valid_polygon_count": "2",
+    "class_ids": [
+      1
+    ],
+    "label_sha256": "832fabb8788cf664a87277b87d3145e3bfe55acabd9e5ecc89c17e4a9177f27c"
+  },
+  {
+    "split": "val",
+    "image": "valid/images/Leaf_blast-398-_jpg.rf.16e8c5f1918839f6ffda972bb7015a73.jpg",
+    "label": "valid/labels/Leaf_blast-398-_jpg.rf.16e8c5f1918839f6ffda972bb7015a73.txt",
+    "width": "640",
+    "height": "640",
+    "sha256": "32e44008fcbace0f8ad3a705d48a5f7f947708bc9861f95b8c19136ff5180eab",
+    "parent_name_hint": "Leaf_blast-398-_jpg",
+    "valid_polygon_count": "1",
+    "class_ids": [
+      2
+    ],
+    "label_sha256": "dcd3acbb709232e16f66c8e481dabac8468263c5dc9c438b305f7832c22665e3"
+  },
+  {
+    "split": "val",
+    "image": "valid/images/Narrow_brown_spot-269-_jpg.rf.d5880b6c7984b52c9302f273db59b8ba.jpg",
+    "label": "valid/labels/Narrow_brown_spot-269-_jpg.rf.d5880b6c7984b52c9302f273db59b8ba.txt",
+    "width": "640",
+    "height": "640",
+    "sha256": "310613c9248297d7fb37d077e919ac3db2c9f8ac2f395be9922f348e2bede215",
+    "parent_name_hint": "Narrow_brown_spot-269-_jpg",
+    "valid_polygon_count": "2",
+    "class_ids": [
+      3
+    ],
+    "label_sha256": "c59a57fce6a4a82ca5e5af9ac4e32874cc8887990704a5f35d3eba0613999d8c"
+  },
+  {
+    "split": "val",
+    "image": "valid/images/SB-35-_jpg.rf.59f8dafa1194123219529513740fd6f7.jpg",
+    "label": "valid/labels/SB-35-_jpg.rf.59f8dafa1194123219529513740fd6f7.txt",
+    "width": "640",
+    "height": "640",
+    "sha256": "27c3e9bb1bdd791204f310da6a741616cddc91d207ea0193913f8e05d508c090",
+    "parent_name_hint": "SB-35-_jpg",
+    "valid_polygon_count": "0",
+    "class_ids": [],
+    "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "split": "val",
+    "image": "valid/images/BLS-069-_jpg.rf.3bfac0873f487785f127b84e09a324f2.jpg",
+    "label": "valid/labels/BLS-069-_jpg.rf.3bfac0873f487785f127b84e09a324f2.txt",
+    "width": "640",
+    "height": "640",
+    "sha256": "92403467de4789f02a61caddffcf66a53be6537523beea39a5f5968d7ee36954",
+    "parent_name_hint": "BLS-069-_jpg",
+    "valid_polygon_count": "2",
+    "class_ids": [
+      1
+    ],
+    "label_sha256": "87d3df07698ddee69481febd51d0b815116e9d314382e4c438234e28e78ef578"
+  },
+  {
+    "split": "val",
+    "image": "valid/images/BLS-269-_jpg.rf.9c395ef3227ea28a9ceb13ed81d65243.jpg",
+    "label": "valid/labels/BLS-269-_jpg.rf.9c395ef3227ea28a9ceb13ed81d65243.txt",
+    "width": "640",
+    "height": "640",
+    "sha256": "8d4fd6228c107a32e511ad9176888e56260cb9443442cb7419e1bf3c5d9e806f",
+    "parent_name_hint": "BLS-269-_jpg",
+    "valid_polygon_count": "4",
+    "class_ids": [
+      1
+    ],
+    "label_sha256": "b82c3340ed7ba8f1c68d3bc63cb84ebc856eeb540a83f7ba68f06862aeff1ec3"
+  },
+  {
+    "split": "val",
+    "image": "valid/images/BLB-033_jpg.rf.7f353edaed0e52c65ef9477a5b88ac28.jpg",
+    "label": "valid/labels/BLB-033_jpg.rf.7f353edaed0e52c65ef9477a5b88ac28.txt",
+    "width": "640",
+    "height": "640",
+    "sha256": "d37a0f83cd1683fa8ac367e91cff0cb42801a6b0785b25c84ba38548b48ec1eb",
+    "parent_name_hint": "BLB-033_jpg",
+    "valid_polygon_count": "1",
+    "class_ids": [
+      0
+    ],
+    "label_sha256": "81a2db0232fcd8e052a18780109f8a7f4ec8aee1ec5fb4fda23225908bb6e921"
+  },
+  {
+    "split": "val",
+    "image": "valid/images/BLS-014-_JPG_JPG_JPG.rf.c4412b8d0343586d466304c4b307c565.jpg",
+    "label": "valid/labels/BLS-014-_JPG_JPG_JPG.rf.c4412b8d0343586d466304c4b307c565.txt",
+    "width": "640",
+    "height": "640",
+    "sha256": "798534c2e4afc8f29019e53d2f38fc203a6a6ff7d2df49929e6ae47842dca406",
+    "parent_name_hint": "BLS-014-_JPG_JPG_JPG",
+    "valid_polygon_count": "3",
+    "class_ids": [
+      1
+    ],
+    "label_sha256": "1f737c5b27d67e4cb5646ca33718a9515818284cdde872ca984605366ed5a15c"
+  },
+  {
+    "split": "val",
+    "image": "valid/images/Leaf_blast-044-_jpg.rf.1f659e58c957239cecabbe87f36639e2.jpg",
+    "label": "valid/labels/Leaf_blast-044-_jpg.rf.1f659e58c957239cecabbe87f36639e2.txt",
+    "width": "640",
+    "height": "640",
+    "sha256": "95809cac0d0a58f7c577027f5f19da75395d81f7d04945d5ad310bcf3d475d2e",
+    "parent_name_hint": "Leaf_blast-044-_jpg",
+    "valid_polygon_count": "0",
+    "class_ids": [],
+    "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "split": "val",
+    "image": "valid/images/Leaf_blast-015-_jpg.rf.0672d6a588a8282c28e8ba5e40dc423f.jpg",
+    "label": "valid/labels/Leaf_blast-015-_jpg.rf.0672d6a588a8282c28e8ba5e40dc423f.txt",
+    "width": "640",
+    "height": "640",
+    "sha256": "72bc05dda5ff6e1e7891fb1b9f953723c7a7d625018e402bc2e9156382b7fb29",
+    "parent_name_hint": "Leaf_blast-015-_jpg",
+    "valid_polygon_count": "0",
+    "class_ids": [],
+    "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "split": "val",
+    "image": "valid/images/BLS-059-_jpg.rf.ccd3c2d6acb7b4c3351796afdd47b75a.jpg",
+    "label": "valid/labels/BLS-059-_jpg.rf.ccd3c2d6acb7b4c3351796afdd47b75a.txt",
+    "width": "640",
+    "height": "640",
+    "sha256": "8fc8cf987f5db5ed32f79d395162003e2d4331b3a4f5d12215fb266d9e83ecc2",
+    "parent_name_hint": "BLS-059-_jpg",
+    "valid_polygon_count": "2",
+    "class_ids": [
+      1
+    ],
+    "label_sha256": "5ce8cd3539bd846cf6c0c483633c4890cb7ea964ea18cff62211e2396fa4f860"
+  },
+  {
+    "split": "val",
+    "image": "valid/images/BLS-076-_JPG_JPG_JPG.rf.e9629f444e8b56b30809ddf7cb605407.jpg",
+    "label": "valid/labels/BLS-076-_JPG_JPG_JPG.rf.e9629f444e8b56b30809ddf7cb605407.txt",
+    "width": "640",
+    "height": "640",
+    "sha256": "b88cc0e996cc730ea2195cb08858a68654976d631568aeb1def7828ce7a7f146",
+    "parent_name_hint": "BLS-076-_JPG_JPG_JPG",
+    "valid_polygon_count": "0",
+    "class_ids": [],
+    "label_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "split": "val",
+    "image": "valid/images/Narrow_brown_spot-0088-_jpg.rf.c59d0537312df619ef7443ba69a48a33.jpg",
+    "label": "valid/labels/Narrow_brown_spot-0088-_jpg.rf.c59d0537312df619ef7443ba69a48a33.txt",
+    "width": "640",
+    "height": "640",
+    "sha256": "d1fd6026b8dd6fdedf6fec9147c36e4eee601efd0a088a887c5662d56912526a",
+    "parent_name_hint": "Narrow_brown_spot-0088-_jpg",
+    "valid_polygon_count": "3",
+    "class_ids": [
+      3
+    ],
+    "label_sha256": "7259da2ea1888f911a566e9ed554e22e5d2cb584ed2835e373e3e0766b8b1c51"
+  },
+  {
+    "split": "val",
+    "image": "valid/images/Narrow_brown_spot-588-_jpg.rf.7bec43701ce4e3450e420022cccd05cc.jpg",
+    "label": "valid/labels/Narrow_brown_spot-588-_jpg.rf.7bec43701ce4e3450e420022cccd05cc.txt",
+    "width": "640",
+    "height": "640",
+    "sha256": "9ec3b129773397a23bb9576f6c65f8c123ecdef936da99663c8850ee82993cd7",
+    "parent_name_hint": "Narrow_brown_spot-588-_jpg",
+    "valid_polygon_count": "4",
+    "class_ids": [
+      3
+    ],
+    "label_sha256": "140419228d63d329527357b5a215a072e417fab14138884140a3619a4144cf01"
+  },
+  {
+    "split": "val",
+    "image": "valid/images/BLS-211-_jpg.rf.5cedb8f76d9e12143a9de57809a7a1b8.jpg",
+    "label": "valid/labels/BLS-211-_jpg.rf.5cedb8f76d9e12143a9de57809a7a1b8.txt",
+    "width": "640",
+    "height": "640",
+    "sha256": "7878ef33e288930915839b78187a65a77ca5abebad925a9479ea66fff24475dd",
+    "parent_name_hint": "BLS-211-_jpg",
+    "valid_polygon_count": "3",
+    "class_ids": [
+      1
+    ],
+    "label_sha256": "dbc756133ecd451a373bb33204902e5de50186952acef7a27491c60088c9b56f"
+  }
+]

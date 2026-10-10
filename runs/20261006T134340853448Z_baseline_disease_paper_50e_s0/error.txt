@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "/home/michaelreybelga/Fourth-Year/Thesis/agrieye_reproduction/agrieye/pipeline.py", line 162, in train_run
+    model.train(**train)
+    ~~~~~~~~~~~^^^^^^^^^
+  File "/home/michaelreybelga/Fourth-Year/Thesis/agrieye_reproduction/.venv/lib64/python3.14/site-packages/ultralytics/engine/model.py", line 788, in train
+    self.trainer.train()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/home/michaelreybelga/Fourth-Year/Thesis/agrieye_reproduction/.venv/lib64/python3.14/site-packages/ultralytics/engine/trainer.py", line 246, in train
+    self._do_train()
+    ~~~~~~~~~~~~~~^^
+  File "/home/michaelreybelga/Fourth-Year/Thesis/agrieye_reproduction/.venv/lib64/python3.14/site-packages/ultralytics/engine/trainer.py", line 392, in _do_train
+    self.run_callbacks("on_train_epoch_start")
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/michaelreybelga/Fourth-Year/Thesis/agrieye_reproduction/.venv/lib64/python3.14/site-packages/ultralytics/engine/trainer.py", line 217, in run_callbacks
+    callback(self)
+    ~~~~~~~~^^^^^^
+  File "/home/michaelreybelga/Fourth-Year/Thesis/agrieye_reproduction/agrieye/pipeline.py", line 151, in epoch_start
+    raise RuntimeError("Ultralytics attempted an OOM retry/batch change. Use a larger GPU, or explicitly choose a smaller --batch for a newly labeled adapted run.")
+RuntimeError: Ultralytics attempted an OOM retry/batch change. Use a larger GPU, or explicitly choose a smaller --batch for a newly labeled adapted run.

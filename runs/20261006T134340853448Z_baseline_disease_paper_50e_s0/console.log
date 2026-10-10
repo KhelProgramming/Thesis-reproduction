@@ -1,0 +1,55 @@
+New https://pypi.org/project/ultralytics/8.4.173 available 😃 Update with 'pip install -U ultralytics'
+Ultralytics 8.4.41 🚀 Python-3.14.7 torch-2.12.1+cu130 CUDA:0 (NVIDIA GeForce GTX 1650, 3715MiB)
+[34m[1mengine/trainer: [0magnostic_nms=False, amp=True, angle=1.0, augment=False, auto_augment=randaugment, batch=16, bgr=0.0, box=7.5, cache=False, cfg=None, classes=None, close_mosaic=10, cls=0.5, cls_pw=0.0, compile=False, conf=None, copy_paste=0.0, copy_paste_mode=flip, cos_lr=True, cutmix=0.0, data=/home/michaelreybelga/Fourth-Year/Thesis/agrieye_reproduction/data/prepared/agrieye_current/data.yaml, degrees=10.0, deterministic=True, device=0, dfl=1.5, dnn=False, dropout=0.0, dynamic=False, embed=None, end2end=None, epochs=50, erasing=0.4, exist_ok=False, fliplr=0.5, flipud=0.5, format=torchscript, fraction=1.0, freeze=None, half=False, hsv_h=0.015, hsv_s=0.5, hsv_v=0.4, imgsz=640, int8=False, iou=0.7, keras=False, kobj=1.0, line_width=None, lr0=0.0001, lrf=0.01, mask_ratio=4, max_det=300, mixup=0.1, mode=train, model=/home/michaelreybelga/Fourth-Year/Thesis/agrieye_reproduction/weights/yolov8n-seg.pt, momentum=0.937, mosaic=1.0, multi_scale=0.0, name=fit, nbs=64, nms=False, opset=None, optimize=False, optimizer=AdamW, overlap_mask=True, patience=20, perspective=0.0, plots=True, pose=12.0, pretrained=True, profile=False, project=/home/michaelreybelga/Fourth-Year/Thesis/agrieye_reproduction/runs/20261006T134340853448Z_baseline_disease_paper_50e_s0, rect=False, resume=False, retina_masks=False, rle=1.0, save=True, save_conf=False, save_crop=False, save_dir=/home/michaelreybelga/Fourth-Year/Thesis/agrieye_reproduction/runs/20261006T134340853448Z_baseline_disease_paper_50e_s0/fit, save_frames=False, save_json=False, save_period=10, save_txt=False, scale=0.4, seed=0, shear=0.0, show=False, show_boxes=True, show_conf=True, show_labels=True, simplify=True, single_cls=False, source=None, split=val, stream_buffer=False, task=segment, time=None, tracker=botsort.yaml, translate=0.1, val=True, verbose=True, vid_stride=1, visualize=False, warmup_bias_lr=0.1, warmup_epochs=3.0, warmup_momentum=0.8, weight_decay=0.0005, workers=2, workspace=None
+Overriding model.yaml nc=80 with nc=4
+
+                   from  n    params  module                                       arguments                     
+  0                  -1  1       464  ultralytics.nn.modules.conv.Conv             [3, 16, 3, 2]                 
+  1                  -1  1      4672  ultralytics.nn.modules.conv.Conv             [16, 32, 3, 2]                
+  2                  -1  1      7360  ultralytics.nn.modules.block.C2f             [32, 32, 1, True]             
+  3                  -1  1     18560  ultralytics.nn.modules.conv.Conv             [32, 64, 3, 2]                
+  4                  -1  2     49664  ultralytics.nn.modules.block.C2f             [64, 64, 2, True]             
+  5                  -1  1     73984  ultralytics.nn.modules.conv.Conv             [64, 128, 3, 2]               
+  6                  -1  2    197632  ultralytics.nn.modules.block.C2f             [128, 128, 2, True]           
+  7                  -1  1    295424  ultralytics.nn.modules.conv.Conv             [128, 256, 3, 2]              
+  8                  -1  1    460288  ultralytics.nn.modules.block.C2f             [256, 256, 1, True]           
+  9                  -1  1    164608  ultralytics.nn.modules.block.SPPF            [256, 256, 5]                 
+ 10                  -1  1         0  torch.nn.modules.upsampling.Upsample         [None, 2, 'nearest']          
+ 11             [-1, 6]  1         0  ultralytics.nn.modules.conv.Concat           [1]                           
+ 12                  -1  1    148224  ultralytics.nn.modules.block.C2f             [384, 128, 1]                 
+ 13                  -1  1         0  torch.nn.modules.upsampling.Upsample         [None, 2, 'nearest']          
+ 14             [-1, 4]  1         0  ultralytics.nn.modules.conv.Concat           [1]                           
+ 15                  -1  1     37248  ultralytics.nn.modules.block.C2f             [192, 64, 1]                  
+ 16                  -1  1     36992  ultralytics.nn.modules.conv.Conv             [64, 64, 3, 2]                
+ 17            [-1, 12]  1         0  ultralytics.nn.modules.conv.Concat           [1]                           
+ 18                  -1  1    123648  ultralytics.nn.modules.block.C2f             [192, 128, 1]                 
+ 19                  -1  1    147712  ultralytics.nn.modules.conv.Conv             [128, 128, 3, 2]              
+ 20             [-1, 9]  1         0  ultralytics.nn.modules.conv.Concat           [1]                           
+ 21                  -1  1    493056  ultralytics.nn.modules.block.C2f             [384, 256, 1]                 
+ 22        [15, 18, 21]  1   1004860  ultralytics.nn.modules.head.Segment          [4, 32, 64, 16, None, [64, 128, 256]]
+YOLOv8n-seg summary: 152 layers, 3,264,396 parameters, 3,264,380 gradients, 11.5 GFLOPs
+
+Transferred 381/417 items from pretrained weights
+Freezing layer 'model.22.dfl.conv.weight'
+WARNING ⚠️ [34m[1mAMP: [0mchecks failed ❌. AMP training on NVIDIA GeForce GTX 1650 GPU may cause NaN losses or zero-mAP results, so AMP will be disabled during training.
+[34m[1mtrain: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 3203.3±1230.3 MB/s, size: 59.1 KB)
+[K[34m[1mtrain: [0mScanning /home/michaelreybelga/Fourth-Year/Thesis/agrieye_reproduction/data/prepared/agrieye_current/train/labels.cache... 6144 images, 2550 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 6144/6144 1.5Git/s 0.0s
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 1762.0±981.1 MB/s, size: 43.0 KB)
+[K[34m[1mval: [0mScanning /home/michaelreybelga/Fourth-Year/Thesis/agrieye_reproduction/data/prepared/agrieye_current/valid/labels.cache... 752 images, 249 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 752/752 225.3Mit/s 0.0s
+[34m[1moptimizer:[0m AdamW(lr=0.0001, momentum=0.937) with parameter groups 66 weight(decay=0.0), 77 weight(decay=0.0005), 76 bias(decay=0.0)
+Plotting labels to /home/michaelreybelga/Fourth-Year/Thesis/agrieye_reproduction/runs/20261006T134340853448Z_baseline_disease_paper_50e_s0/fit/labels.jpg... 
+Image sizes 640 train, 640 val
+Using 2 dataloader workers
+Logging results to [1m/home/michaelreybelga/Fourth-Year/Thesis/agrieye_reproduction/runs/20261006T134340853448Z_baseline_disease_paper_50e_s0/fit[0m
+Starting training for 50 epochs...
+
+      Epoch    GPU_mem   box_loss   seg_loss   cls_loss   dfl_loss   sem_loss  Instances       Size
+WARNING ⚠️ CUDA out of memory with batch=16. Reducing to batch=8 and retrying (1/3).
+[34m[1mtrain: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 428.6±593.1 MB/s, size: 82.9 KB)
+[K[34m[1mtrain: [0mScanning /home/michaelreybelga/Fourth-Year/Thesis/agrieye_reproduction/data/prepared/agrieye_current/train/labels.cache... 6144 images, 2550 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 6144/6144 2.6Git/s 0.0s
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 217.5±100.7 MB/s, size: 38.7 KB)
+[K[34m[1mval: [0mScanning /home/michaelreybelga/Fourth-Year/Thesis/agrieye_reproduction/data/prepared/agrieye_current/valid/labels.cache... 752 images, 249 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 752/752 242.6Mit/s 0.0s
+[34m[1moptimizer:[0m AdamW(lr=0.0001, momentum=0.937) with parameter groups 66 weight(decay=0.0), 77 weight(decay=0.0005), 76 bias(decay=0.0)
+[K: 0% ──────────── 0/384  7.9s
+
+Run records preserved: /home/michaelreybelga/Fourth-Year/Thesis/agrieye_reproduction/runs/20261006T134340853448Z_baseline_disease_paper_50e_s0

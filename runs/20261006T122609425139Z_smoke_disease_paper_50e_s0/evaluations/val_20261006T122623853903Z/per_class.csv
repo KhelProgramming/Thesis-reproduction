@@ -1,0 +1,9 @@
+kind,class_id,class_name,evaluated,precision,recall,f1,ap50,ap50_95
+box,0,BLB,True,0.0,0.0,0.0,0.0,0.0
+box,1,BLS,True,0.0010834236186348862,0.125,0.0021482277121374843,0.0008811573409851746,0.0002792922046867528
+box,2,LEAF BLAST,True,0.0,0.0,0.0,0.0,0.0
+box,3,NBS,True,0.0,0.0,0.0,0.0,0.0
+mask,0,BLB,True,0.0,0.0,0.0,0.0,0.0
+mask,1,BLS,True,0.0,0.0,0.0,0.0,0.0
+mask,2,LEAF BLAST,True,0.0,0.0,0.0,0.0,0.0
+mask,3,NBS,True,0.0,0.0,0.0,0.0,0.0

@@ -1,0 +1,17 @@
+{
+  "arguments": {
+    "project": "/home/michaelreybelga/Fourth-Year/Thesis/agrieye_reproduction",
+    "disease": "upload/AgriEye_Verified disease no leaf finalch.v6i.yolov8.zip",
+    "healthy": "upload/Healthy.v1i.yolov8.zip",
+    "final": null,
+    "final_audit": "upload/dataset_contents_check_20261007T055731327473Z.zip",
+    "stage": false,
+    "output": "deliverables/agrieye_inventory_package/verified_comparison"
+  },
+  "staged_paths": {
+    "raw_disease": "upload/AgriEye_Verified disease no leaf finalch.v6i.yolov8.zip",
+    "raw_healthy": "upload/Healthy.v1i.yolov8.zip"
+  },
+  "raw_modified": false,
+  "training_config_modified": false
+}

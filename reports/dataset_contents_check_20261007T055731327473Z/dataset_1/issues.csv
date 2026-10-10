@@ -1,0 +1,4 @@
+kind,path,line,detail
+yaml_path_not_found,data.yaml,,train: ../train/images; inventoried physical folders ['train/images']. No path was repaired.
+yaml_path_not_found,data.yaml,,val: ../valid/images; inventoried physical folders ['valid/images']. No path was repaired.
+yaml_path_not_found,data.yaml,,test: ../test/images; inventoried physical folders ['test/images']. No path was repaired.

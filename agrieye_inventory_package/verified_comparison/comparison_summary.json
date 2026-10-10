@@ -1,0 +1,11 @@
+{
+  "raw_images": 1342,
+  "final_images": 7652,
+  "matched_final_images": 7652,
+  "raw_without_any_final_match": 197,
+  "final_without_any_raw_match": 0,
+  "match_edges": {
+    "same_source_key_different_bytes_candidate": 8784
+  },
+  "note": "Source-key matches are ancestry candidates, not proof of the augmentation or annotation geometry. Multiple final tiles/augmentations may map to one raw image. No files or class IDs were changed."
+}

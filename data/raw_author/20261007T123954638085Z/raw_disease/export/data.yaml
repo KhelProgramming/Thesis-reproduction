@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['BLB', 'BLS', 'LEAF', 'LEAF BLAST', 'NBS']
+
+roboflow:
+  workspace: agrieye
+  project: agrieye_verified-disease-no-leaf-finalch
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/agrieye/agrieye_verified-disease-no-leaf-finalch/dataset/6

@@ -1,0 +1,11 @@
+dataset,class_id,class_name,meaning
+raw_disease,0,BLB,BLB
+raw_disease,1,BLS,BLS
+raw_disease,2,LEAF,LEAF
+raw_disease,3,LEAF BLAST,LEAF BLAST
+raw_disease,4,NBS,NBS
+raw_healthy,0,Healthy,HEALTHY
+final,0,BLB,BLB
+final,1,BLS,BLS
+final,2,LEAF BLAST,LEAF BLAST
+final,3,NBS,NBS

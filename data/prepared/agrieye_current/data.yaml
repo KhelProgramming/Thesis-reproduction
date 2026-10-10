@@ -1,0 +1,10 @@
+path: /home/michaelreybelga/Fourth-Year/Thesis/agrieye_reproduction/data/prepared/agrieye_current
+train: train/images
+val: valid/images
+test: test/images
+nc: 4
+names:
+- BLB
+- BLS
+- LEAF BLAST
+- NBS

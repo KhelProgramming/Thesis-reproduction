@@ -1,0 +1,120 @@
+[
+  {
+    "dataset": "raw_disease",
+    "source": "/workspace/scratch/7f0c895df967/upload/AgriEye_Verified disease no leaf finalch.v6i.yolov8.zip",
+    "names": {
+      "0": "BLB",
+      "1": "BLS",
+      "2": "LEAF",
+      "3": "LEAF BLAST",
+      "4": "NBS"
+    },
+    "images": 1145,
+    "splits": {
+      "test": 189,
+      "train": 768,
+      "valid": 188
+    },
+    "empty_labels": 210,
+    "missing_labels": 0,
+    "polygon_rows": 5011,
+    "box_rows": 0,
+    "invalid_rows": 0,
+    "tungro_named_images": 35,
+    "orphan_labels": [],
+    "duplicate_zip_paths": {
+      "data.yaml": 3
+    },
+    "yaml": {
+      "train": "../train/images",
+      "val": "../valid/images",
+      "test": "../test/images",
+      "nc": 5,
+      "names": [
+        "BLB",
+        "BLS",
+        "LEAF",
+        "LEAF BLAST",
+        "NBS"
+      ],
+      "roboflow": {
+        "workspace": "agrieye",
+        "project": "agrieye_verified-disease-no-leaf-finalch",
+        "version": 6,
+        "license": "CC BY 4.0",
+        "url": "https://universe.roboflow.com/agrieye/agrieye_verified-disease-no-leaf-finalch/dataset/6"
+      }
+    }
+  },
+  {
+    "dataset": "raw_healthy",
+    "source": "/workspace/scratch/7f0c895df967/upload/Healthy.v1i.yolov8.zip",
+    "names": {
+      "0": "Healthy"
+    },
+    "images": 197,
+    "splits": {
+      "train": 197
+    },
+    "empty_labels": 0,
+    "missing_labels": 0,
+    "polygon_rows": 197,
+    "box_rows": 0,
+    "invalid_rows": 0,
+    "tungro_named_images": 0,
+    "orphan_labels": [],
+    "duplicate_zip_paths": {},
+    "yaml": {
+      "train": "../train/images",
+      "val": "../valid/images",
+      "test": "../test/images",
+      "nc": 1,
+      "names": [
+        "Healthy"
+      ],
+      "roboflow": {
+        "workspace": "agrieye",
+        "project": "healthy-hivtj",
+        "version": 1,
+        "license": "CC BY 4.0",
+        "url": "https://universe.roboflow.com/agrieye/healthy-hivtj/dataset/1"
+      }
+    }
+  },
+  {
+    "dataset": "final",
+    "source": "/home/michaelreybelga/Downloads/AgriEye_Verified disease.v5i.yolov8",
+    "names": {
+      "0": "BLB",
+      "1": "BLS",
+      "2": "LEAF BLAST",
+      "3": "NBS"
+    },
+    "images": 7652,
+    "splits": {
+      "train": 6144,
+      "valid": 752,
+      "test": 756
+    },
+    "yaml": {
+      "train": "../train/images",
+      "val": "../valid/images",
+      "test": "../test/images",
+      "nc": 4,
+      "names": [
+        "BLB",
+        "BLS",
+        "LEAF BLAST",
+        "NBS"
+      ],
+      "roboflow": {
+        "workspace": "agrieye",
+        "project": "agrieye_verified-disease-no-leaf-finalch",
+        "version": 5,
+        "license": "CC BY 4.0",
+        "url": "https://universe.roboflow.com/agrieye/agrieye_verified-disease-no-leaf-finalch/dataset/5"
+      }
+    },
+    "evidence": "Previous uploaded manifest; final image/label bytes unavailable here, so semantic polygon matching and fresh verification are unavailable."
+  }
+]

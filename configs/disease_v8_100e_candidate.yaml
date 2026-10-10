@@ -1,0 +1,11 @@
+extends: disease_paper_50e.yaml
+id: disease_v8_100e_candidate
+status: candidate_final_run_remaining_settings_assumed
+source: "Table 12 printed p.74 / PDF p.91; final selection p.75"
+expected_classes: [BLB, BLS, HEALTHY, LEAF BLAST, NBS]
+notes:
+  - "Only 100 epochs, batch 16, and five classes are established by Table 12 v8."
+  - "Other settings are inherited from the appendix as explicit assumptions, not verified final-run facts."
+  - "Do not use this profile as evidence of exact reproduction until authors confirm the recipe and dataset."
+train:
+  epochs: 100

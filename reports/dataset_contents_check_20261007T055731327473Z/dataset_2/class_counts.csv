@@ -1,0 +1,13 @@
+split,image_folder,class_id,class_name,annotation_rows,valid_geometry_rows,images_with_valid_geometry
+train,train/images,0,BLB,940,940,792
+train,train/images,1,BLS,3962,3962,1122
+train,train/images,2,LEAF BLAST,1018,1018,572
+train,train/images,3,NBS,3574,3574,1108
+valid,valid/images,0,BLB,228,228,166
+valid,valid/images,1,BLS,403,403,146
+valid,valid/images,2,LEAF BLAST,140,140,68
+valid,valid/images,3,NBS,415,415,123
+test,test/images,0,BLB,204,204,163
+test,test/images,1,BLS,478,478,152
+test,test/images,2,LEAF BLAST,214,214,97
+test,test/images,3,NBS,300,300,88

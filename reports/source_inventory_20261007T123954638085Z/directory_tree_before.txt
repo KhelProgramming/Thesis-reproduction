@@ -1,0 +1,38 @@
+/home/michaelreybelga/Fourth-Year/Thesis/agrieye_reproduction
+  README.md
+  START_HERE.md
+  VERIFICATION.md
+  agrieye/ (5 direct files)
+    __pycache__/ (5 direct files)
+  agrieye_inventory_package/ (2 direct files)
+    verified_comparison/ (13 direct files)
+  configs/ (4 direct files)
+  data/ (0 direct files)
+    prepared/ (0 direct files)
+      agrieye_current/ (2 direct files)
+    raw/ (0 direct files)
+      agrieye_export/ (3 direct files)
+  notebooks/ (1 direct files)
+  package_manifest.json
+  references/ (5 direct files)
+    supplied_export_metadata/ (3 direct files)
+  reports/ (6 direct files)
+    audit_agrieye_current_20261006T122309499968Z/ (4 direct files)
+    benchmark_20261006T224405944648Z/ (2 direct files)
+    dataset_contents_check_20261007T055731327473Z/ (2 direct files)
+      dataset_1/ (7 direct files)
+      dataset_2/ (7 direct files)
+    environment_20261006T122045058913Z/ (2 direct files)
+    source_inventory_20261007T123954638085Z/ (0 direct files)
+    visual_review_20261006T124615027951Z/ (9 direct files)
+      selected_files/ (0 direct files)
+    visual_review_20261006T124625413471Z/ (9 direct files)
+      selected_files/ (0 direct files)
+  requirements-audit.txt
+  requirements.txt
+  review_agrieye_samples.py
+  run.py
+  runs/ (0 direct files)
+  tests/ (1 direct files)
+  tools/ (1 direct files)
+  weights/ (1 direct files)

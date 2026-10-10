@@ -1,0 +1,12 @@
+{
+  "version": "1.0",
+  "command": [
+    "/home/michaelreybelga/Downloads/check_agrieye_dataset.py",
+    "--dataset",
+    "/home/michaelreybelga/Downloads/AgriEye_Verified disease.v5i.yolov8",
+    "--compare",
+    "data/raw/agrieye_export"
+  ],
+  "utc": "20261007T055731327473Z",
+  "script_sha256": "5cf9adaa0259e76699d2d837394b4289c077a349d5daafcbee479bc7e6580086"
+}

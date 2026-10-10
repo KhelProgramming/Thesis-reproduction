@@ -1,0 +1,19 @@
+id: leaf_paper_200e
+status: documented_leaf_recipe_single_gpu_adaptation
+source: "Figure 13 printed p.66 / PDF p.83; description p.67"
+model: yolov8n-seg.pt
+expected_classes: [Palay]
+notes:
+  - "Requires a separate leaf-mask dataset; do not use disease-region annotations."
+  - "Paper uses two GPUs (device 0,1); this executable profile uses one GPU (device 0)."
+  - "Unspecified hyperparameters come from the pinned framework, not a recovered author environment."
+train:
+  epochs: 200
+  imgsz: 640
+  batch: 16
+  device: 0
+  workers: 2
+  patience: 20
+  save: true
+  plots: true
+  val: true

@@ -1,0 +1,241 @@
+{
+  "checker_version": "1.0",
+  "dataset_root": "/home/michaelreybelga/Fourth-Year/Thesis/agrieye_reproduction/data/raw/agrieye_export",
+  "yaml_file": "/home/michaelreybelga/Fourth-Year/Thesis/agrieye_reproduction/data/raw/agrieye_export/data.yaml",
+  "yaml_sha256": "480a31112f581d55e2b95efe7bf44c5006d1aa0ada5329e6ff461c1c296134fd",
+  "yaml_content": {
+    "train": "../train/images",
+    "val": "../valid/images",
+    "test": "../test/images",
+    "nc": 4,
+    "names": [
+      "BLB",
+      "BLS",
+      "LEAF BLAST",
+      "NBS"
+    ],
+    "roboflow": {
+      "workspace": "agrieye",
+      "project": "agrieye_verified-disease-no-leaf-finalch",
+      "version": 5,
+      "license": "CC BY 4.0",
+      "url": "https://universe.roboflow.com/agrieye/agrieye_verified-disease-no-leaf-finalch/dataset/5"
+    }
+  },
+  "yaml_path_checks": {
+    "train": {
+      "declared": "../train/images",
+      "physical_folders": [
+        "train/images"
+      ],
+      "literal_path_resolution": "/home/michaelreybelga/Fourth-Year/Thesis/agrieye_reproduction/data/raw/train/images",
+      "literal_path_exists": false
+    },
+    "val": {
+      "declared": "../valid/images",
+      "physical_folders": [
+        "valid/images"
+      ],
+      "literal_path_resolution": "/home/michaelreybelga/Fourth-Year/Thesis/agrieye_reproduction/data/raw/valid/images",
+      "literal_path_exists": false
+    },
+    "test": {
+      "declared": "../test/images",
+      "physical_folders": [
+        "test/images"
+      ],
+      "literal_path_resolution": "/home/michaelreybelga/Fourth-Year/Thesis/agrieye_reproduction/data/raw/test/images",
+      "literal_path_exists": false
+    }
+  },
+  "names": {
+    "0": "BLB",
+    "1": "BLS",
+    "2": "LEAF BLAST",
+    "3": "NBS"
+  },
+  "observed_image_linked_ids": {
+    "0": 1372,
+    "1": 4843,
+    "2": 1372,
+    "3": 4289
+  },
+  "splits": [
+    {
+      "split": "train",
+      "image_folder": "train/images",
+      "images": 6144,
+      "annotation_rows": 9494,
+      "polygons": 9494,
+      "boxes": 0,
+      "empty_labels": 2550,
+      "missing_labels": 0,
+      "orphan_labels": 0
+    },
+    {
+      "split": "valid",
+      "image_folder": "valid/images",
+      "images": 752,
+      "annotation_rows": 1186,
+      "polygons": 1186,
+      "boxes": 0,
+      "empty_labels": 249,
+      "missing_labels": 0,
+      "orphan_labels": 0
+    },
+    {
+      "split": "test",
+      "image_folder": "test/images",
+      "images": 756,
+      "annotation_rows": 1196,
+      "polygons": 1196,
+      "boxes": 0,
+      "empty_labels": 256,
+      "missing_labels": 0,
+      "orphan_labels": 0
+    }
+  ],
+  "class_counts": [
+    {
+      "split": "train",
+      "image_folder": "train/images",
+      "class_id": 0,
+      "class_name": "BLB",
+      "annotation_rows": 940,
+      "valid_geometry_rows": 940,
+      "images_with_valid_geometry": 792
+    },
+    {
+      "split": "train",
+      "image_folder": "train/images",
+      "class_id": 1,
+      "class_name": "BLS",
+      "annotation_rows": 3962,
+      "valid_geometry_rows": 3962,
+      "images_with_valid_geometry": 1122
+    },
+    {
+      "split": "train",
+      "image_folder": "train/images",
+      "class_id": 2,
+      "class_name": "LEAF BLAST",
+      "annotation_rows": 1018,
+      "valid_geometry_rows": 1018,
+      "images_with_valid_geometry": 572
+    },
+    {
+      "split": "train",
+      "image_folder": "train/images",
+      "class_id": 3,
+      "class_name": "NBS",
+      "annotation_rows": 3574,
+      "valid_geometry_rows": 3574,
+      "images_with_valid_geometry": 1108
+    },
+    {
+      "split": "valid",
+      "image_folder": "valid/images",
+      "class_id": 0,
+      "class_name": "BLB",
+      "annotation_rows": 228,
+      "valid_geometry_rows": 228,
+      "images_with_valid_geometry": 166
+    },
+    {
+      "split": "valid",
+      "image_folder": "valid/images",
+      "class_id": 1,
+      "class_name": "BLS",
+      "annotation_rows": 403,
+      "valid_geometry_rows": 403,
+      "images_with_valid_geometry": 146
+    },
+    {
+      "split": "valid",
+      "image_folder": "valid/images",
+      "class_id": 2,
+      "class_name": "LEAF BLAST",
+      "annotation_rows": 140,
+      "valid_geometry_rows": 140,
+      "images_with_valid_geometry": 68
+    },
+    {
+      "split": "valid",
+      "image_folder": "valid/images",
+      "class_id": 3,
+      "class_name": "NBS",
+      "annotation_rows": 415,
+      "valid_geometry_rows": 415,
+      "images_with_valid_geometry": 123
+    },
+    {
+      "split": "test",
+      "image_folder": "test/images",
+      "class_id": 0,
+      "class_name": "BLB",
+      "annotation_rows": 204,
+      "valid_geometry_rows": 204,
+      "images_with_valid_geometry": 163
+    },
+    {
+      "split": "test",
+      "image_folder": "test/images",
+      "class_id": 1,
+      "class_name": "BLS",
+      "annotation_rows": 478,
+      "valid_geometry_rows": 478,
+      "images_with_valid_geometry": 152
+    },
+    {
+      "split": "test",
+      "image_folder": "test/images",
+      "class_id": 2,
+      "class_name": "LEAF BLAST",
+      "annotation_rows": 214,
+      "valid_geometry_rows": 214,
+      "images_with_valid_geometry": 97
+    },
+    {
+      "split": "test",
+      "image_folder": "test/images",
+      "class_id": 3,
+      "class_name": "NBS",
+      "annotation_rows": 300,
+      "valid_geometry_rows": 300,
+      "images_with_valid_geometry": 88
+    }
+  ],
+  "healthy_evidence": {
+    "declared_healthy_ids": [],
+    "healthy_valid_geometry_rows": 0,
+    "healthy_status": "Not declared in this YAML; cannot identify a Healthy class from numeric IDs alone",
+    "expected_final_class_order": [
+      "BLB",
+      "BLS",
+      "HEALTHY",
+      "LEAF BLAST",
+      "NBS"
+    ],
+    "final_class_order_matches": false,
+    "healthy_filename_examples_not_diagnoses": []
+  },
+  "file_content_fingerprint": "8413d8610dae26f3baf397b5050b04d1ed446fa52da090b8e3cf6a5d89bd61a3",
+  "readmes": {
+    "README.dataset.txt": "# AgriEye_Verified disease no leaf finalch > 2026-05-16 11:21pm\nhttps://universe.roboflow.com/agrieye/agrieye_verified-disease-no-leaf-finalch\n\nProvided by a Roboflow user\nLicense: CC BY 4.0\n\n",
+    "README.roboflow.txt": "\nAgriEye_Verified disease no leaf finalch - v5 2026-05-16 11:21pm\n==============================\n\nThis dataset was exported via roboflow.com on May 16, 2026 at 3:23 PM GMT\n\nRoboflow is an end-to-end computer vision platform that helps you\n* collaborate with your team on computer vision projects\n* collect & organize images\n* understand and search unstructured image data\n* annotate, and create datasets\n* export, train, and deploy computer vision models\n* use active learning to improve your dataset over time\n\nFor state of the art Computer Vision training notebooks you can use with this dataset,\nvisit https://github.com/roboflow/notebooks\n\nTo find over 100k other datasets and pre-trained models, visit https://universe.roboflow.com\n\nThe dataset includes 7652 images.\nLeaf-Disease-pCa9-K2Zw-UERA-KsSf are annotated in YOLOv8 format.\n\nThe following pre-processing was applied to each image:\n* Auto-orientation of pixel data (with EXIF-orientation stripping)\n* Resize to 640x640 (Stretch)\n* Auto-contrast via contrast stretching\n\nThe following augmentation was applied to create 2 versions of each source image:\n* 50% probability of horizontal flip\n* 50% probability of vertical flip\n* Random brigthness adjustment of between -9 and +9 percent\n* Random exposure adjustment of between -15 and +15 percent\n* Random Gaussian blur of between 0 and 0.8 pixels\n* Salt and pepper noise was applied to 1.41 percent of pixels\n\n\n"
+  },
+  "images_outside_scanned_splits": [],
+  "exact_duplicate_groups": 31,
+  "exact_cross_split_groups": 19,
+  "issues_by_kind": {
+    "yaml_path_not_found": 3
+  },
+  "limitations": [
+    "No visual diagnosis, annotation-completeness check, or near-duplicate detection.",
+    "Geometry checks are structural; they do not verify lesion alignment or polygon area.",
+    "Empty labels indicate no labeled target instances, not a Healthy class.",
+    "Image counts include augmented copies; they are not counts of independent original leaves.",
+    "A five-class match alone does not prove matching training or published benchmark.",
+    "Dataset provenance is author-supplied according to the researcher; this checker inventories bytes only."
+  ]
+}

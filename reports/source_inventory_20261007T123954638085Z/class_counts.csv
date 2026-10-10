@@ -1,0 +1,39 @@
+dataset,split,class_id,class_name,images_with_class,polygon_instances
+raw_disease,test,0,BLB,48,55
+raw_disease,test,1,BLS,45,232
+raw_disease,test,2,LEAF,153,153
+raw_disease,test,3,LEAF BLAST,45,173
+raw_disease,test,4,NBS,33,236
+raw_disease,train,0,BLB,111,127
+raw_disease,train,1,BLS,161,945
+raw_disease,train,2,LEAF,419,420
+raw_disease,train,3,LEAF BLAST,144,400
+raw_disease,train,4,NBS,177,1405
+raw_disease,valid,0,BLB,50,71
+raw_disease,valid,1,BLS,43,178
+raw_disease,valid,2,LEAF,156,156
+raw_disease,valid,3,LEAF BLAST,36,115
+raw_disease,valid,4,NBS,41,345
+raw_disease,ALL,0,BLB,209,253
+raw_disease,ALL,1,BLS,249,1355
+raw_disease,ALL,2,LEAF,728,729
+raw_disease,ALL,3,LEAF BLAST,225,688
+raw_disease,ALL,4,NBS,251,1986
+raw_healthy,train,0,Healthy,197,197
+raw_healthy,ALL,0,Healthy,197,197
+final,test,0,BLB,163,204
+final,test,1,BLS,152,478
+final,test,2,LEAF BLAST,97,214
+final,test,3,NBS,88,300
+final,train,0,BLB,792,940
+final,train,1,BLS,1122,3962
+final,train,2,LEAF BLAST,572,1018
+final,train,3,NBS,1108,3574
+final,valid,0,BLB,166,228
+final,valid,1,BLS,146,403
+final,valid,2,LEAF BLAST,68,140
+final,valid,3,NBS,123,415
+final,ALL,0,BLB,1121,1372
+final,ALL,1,BLS,1420,4843
+final,ALL,2,LEAF BLAST,737,1372
+final,ALL,3,NBS,1319,4289
